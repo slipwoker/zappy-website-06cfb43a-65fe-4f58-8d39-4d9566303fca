@@ -7,45 +7,45 @@
 ## Pages
 
 ### בית
-https://familypastport-06cfb43a.zappy5.app
+https://example.com
 מחפשים תיועד משפחתי? FAMILYPASTPORT מציעה שירותי דרכונים ותיעוד נסיעות מותאמים אישית למשפחות. הפכו את חלום הטיול למציאות עוד היום!
 
 ### אודות
-https://familypastport-06cfb43a.zappy5.app/about
+https://example.com/about
 ב-FAMILYPASTPORT אנו מבינים שתיועד משפחתי הוא מתנה יקרת ערך. קראו על הצוות המסור שהופך כל תיעוד נסיעות לחוויה משפחתית מרגשת.
 
 ### שירותים
-https://familypastport-06cfb43a.zappy5.app/services
+https://example.com/services
 מחפשים מתנה לגיל 70 בלתי נשכחת? צפו במגוון השירותים שלנו לתיעוד נסיעות, דרכונים והפקת חוויות משפחתיות מותאמות אישית. בחרו את המושלם עבורכם!
 
 ### שאלות נפוצות
-https://familypastport-06cfb43a.zappy5.app/faq
+https://example.com/faq
 יש לכם שאלות על תיועד משפחתי או איך להפוך אותו למתנה לגיל 80? מצאו תשובות לכל השאלות הנפוצות על שירותי התיעוד שלנו והתחילו לתכנן בקלות.
 
 ### המלצות
-https://familypastport-06cfb43a.zappy5.app/testimonials
+https://example.com/testimonials
 מתנה לגיל 70 שהפכה לזיכרון מתוק: קראו המלצות נרגשות של משפחות שבחרו ב-FAMILYPASTPORT לתיעוד הנסיעות שלהן. הצטרפו גם אתם למעגל המרוצים!
 
 ### צור קשר
-https://familypastport-06cfb43a.zappy5.app/contact
+https://example.com/contact
 מוכנים להפוך את התיועד המשפחתי למתנה לגיל 80 מרגשת? צרו קשר עם FAMILYPASTPORT עוד היום לקבלת ייעוץ אישי, הצעת מחיר ותחילת הדרך לחוויה משפחתית.
 
 ### תודה שפניתם אלינו | FAMILYPASTPORT
-https://familypastport-06cfb43a.zappy5.app/thank-you
+https://example.com/thank-you
 FAMILYPASTPORT - תודה שפניתם אלינו | FAMILYPASTPORT
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://familypastport-06cfb43a.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://familypastport-06cfb43a.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://familypastport-06cfb43a.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -55,8 +55,8 @@ Information about WCAG compliance and accessibility features.
 - (No contact details configured yet.)
 
 ### Contact form
-- URL: https://familypastport-06cfb43a.zappy5.app/contact
-- Endpoint: https://familypastport-06cfb43a.zappy5.app/api/email/contact-form
+- URL: https://example.com/contact
+- Endpoint: https://example.com/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -85,6 +85,6 @@ Travel & Documentation Services
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://familypastport-06cfb43a.zappy5.app/sitemap.xml
-- Robots: https://familypastport-06cfb43a.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://familypastport-06cfb43a.zappy5.app/llms-full.txt
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
