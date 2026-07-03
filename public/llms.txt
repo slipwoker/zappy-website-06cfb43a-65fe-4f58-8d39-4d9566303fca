@@ -1,0 +1,90 @@
+# FAMILYPASTPORT — Generative Engine Optimization Map
+
+> FAMILYPASSPORT is a service-oriented brand focused on families, offering six distinct services related to passport and travel documentation. The brand name suggests a family-friendly, trustworthy identity centered around travel facilitation and documentation. The website structure includes informational pages (About, FAQ, Privacy, Accessibility), service showcasing, testimonials, and a contact page — indicating a professional, customer-centric business.
+
+---
+
+## Pages
+
+### בית
+https://familypastport-06cfb43a.zappy5.app
+מחפשים תיועד משפחתי? FAMILYPASTPORT מציעה שירותי דרכונים ותיעוד נסיעות מותאמים אישית למשפחות. הפכו את חלום הטיול למציאות עוד היום!
+
+### אודות
+https://familypastport-06cfb43a.zappy5.app/about
+ב-FAMILYPASTPORT אנו מבינים שתיועד משפחתי הוא מתנה יקרת ערך. קראו על הצוות המסור שהופך כל תיעוד נסיעות לחוויה משפחתית מרגשת.
+
+### שירותים
+https://familypastport-06cfb43a.zappy5.app/services
+מחפשים מתנה לגיל 70 בלתי נשכחת? צפו במגוון השירותים שלנו לתיעוד נסיעות, דרכונים והפקת חוויות משפחתיות מותאמות אישית. בחרו את המושלם עבורכם!
+
+### שאלות נפוצות
+https://familypastport-06cfb43a.zappy5.app/faq
+יש לכם שאלות על תיועד משפחתי או איך להפוך אותו למתנה לגיל 80? מצאו תשובות לכל השאלות הנפוצות על שירותי התיעוד שלנו והתחילו לתכנן בקלות.
+
+### המלצות
+https://familypastport-06cfb43a.zappy5.app/testimonials
+מתנה לגיל 70 שהפכה לזיכרון מתוק: קראו המלצות נרגשות של משפחות שבחרו ב-FAMILYPASTPORT לתיעוד הנסיעות שלהן. הצטרפו גם אתם למעגל המרוצים!
+
+### צור קשר
+https://familypastport-06cfb43a.zappy5.app/contact
+מוכנים להפוך את התיועד המשפחתי למתנה לגיל 80 מרגשת? צרו קשר עם FAMILYPASTPORT עוד היום לקבלת ייעוץ אישי, הצעת מחיר ותחילת הדרך לחוויה משפחתית.
+
+### תודה שפניתם אלינו | FAMILYPASTPORT
+https://familypastport-06cfb43a.zappy5.app/thank-you
+FAMILYPASTPORT - תודה שפניתם אלינו | FAMILYPASTPORT
+
+## Legal & Policy
+
+### Privacy Policy
+https://familypastport-06cfb43a.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://familypastport-06cfb43a.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://familypastport-06cfb43a.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://familypastport-06cfb43a.zappy5.app/contact
+- Endpoint: https://familypastport-06cfb43a.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text)
+  - `email` (email)
+  - `phone` (tel)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About FAMILYPASTPORT
+FAMILYPASSPORT is a service-oriented brand focused on families, offering six distinct services related to passport and travel documentation. The brand name suggests a family-friendly, trustworthy identity centered around travel facilitation and documentation. The website structure includes informational pages (About, FAQ, Privacy, Accessibility), service showcasing, testimonials, and a contact page — indicating a professional, customer-centric business.
+
+## Target Audience
+- בני 70+ המעוניינים לתעד את סיפור חייהם
+- ילדים של בני 80+ המעוניינים לתעד ולשמר את הסיפור המשפחתי
+- מחפשי מתנה משמעותית ורגשית ליום הולדת עגול, יום נישואין עגול וכדומה
+
+## Industry
+Travel & Documentation Services
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://familypastport-06cfb43a.zappy5.app/sitemap.xml
+- Robots: https://familypastport-06cfb43a.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://familypastport-06cfb43a.zappy5.app/llms-full.txt
