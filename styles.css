@@ -70,13 +70,13 @@
 :root {
 --primary: #102A47;
   --secondary: #D4A23A;
-  --accent: #B87922;
-  --bg-light: #ffffff;
+  --accent: #F0D77F;
+  --bg-light: #FFFFFF;
   --bg-dark: #102A47;
-  --text-dark: #4a4a4a;
+  --text-dark: #4A4A4A;
   --text-light: #FFFFFF;
   --text-muted: #707070;
-  --border-light: #B87922;
+  --border-light: #F0D77F;
   --border-dark: #D4A23A;
   --nav-bg: #102A47;
   --nav-text: #FFFFFF;
@@ -100,10 +100,10 @@
   --transition-hover: all 0.3s ease;
   --primary-color: #102A47;
   --secondary-color: #D4A23A;
-  --accent-color: #B87922;
-  --background-color: #ffffff;
-  --surface-color: #f8f9fa;
-  --text-color: #4a4a4a;
+  --accent-color: #F0D77F;
+  --background-color: #FFFFFF;
+  --surface-color: #F9FAFB;
+  --text-color: #4A4A4A;
   --text-secondary-color: #707070;
 }
 
@@ -373,7 +373,7 @@ html:not([dir]) .whatsapp-float {
   --primary: #102A47;
   --secondary: #D4A23A;
   --text-light: #FFFFFF;
-  --text-dark: #4a4a4a;
+  --text-dark: #4A4A4A;
 }
 
 .navbar {
@@ -540,7 +540,7 @@ html:not([dir]) .whatsapp-float {
   --primary: #102A47;
   --secondary: #D4A23A;
   --text-light: #FFFFFF;
-  --text-dark: #4a4a4a;
+  --text-dark: #4A4A4A;
 }
 
 .navbar {
@@ -1029,7 +1029,7 @@ nav[dir="rtl"] .nav-right-group .nav-menu,
   position: absolute;
   top: calc(100% + 8px);
   min-width: 220px;
-  background: #ffffff;
+  background: #FFFFFF;
   box-shadow: 0 8px 24px rgba(0,0,0,0.15);
   border-radius: 8px;
   padding: 8px 0;
@@ -1407,7 +1407,7 @@ html:not([dir="rtl"]):not([lang="he"]):not([lang="ar"]) .dropdown-menu {
     order: 0 !important;
     padding: 16px 28px;
     border-radius: 999px;
-    background: var(--primary, var(--accent, #B87922)) !important;
+    background: var(--primary, var(--accent, #F0D77F)) !important;
     color: #ffffff !important;
     font-size: 1.1rem;
     font-weight: 700;
@@ -1826,7 +1826,7 @@ main:not(.courses-page-main) { margin-top: 0 !important; padding-top: 0 !importa
   --footer-text: var(--text-light, #FFFFFF);
   --footer-text-muted: rgba(255, 255, 255, 0.7);
   --footer-accent: var(--secondary, #D4A23A);
-  --footer-accent-hover: var(--accent, #B87922);
+  --footer-accent-hover: var(--accent, #F0D77F);
   --footer-border: rgba(212, 162, 58, 0.25);
   --footer-radius: 8px;
   --footer-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
@@ -2514,7 +2514,7 @@ main { flex: 1 0 auto; }
     width: 56px;
     height: 56px;
     margin: 0 auto 24px;
-    color: #9e681d;
+    color: #896e10;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -3823,7 +3823,7 @@ main { flex: 1 0 auto; }
 }
 
 .about-process-summary-section .step-card {
-    background: #ffffff;
+    background: #FFFFFF;
     border-radius: var(--radius-card, 8px);
     padding: var(--spacing-card-padding, 32px);
     border: 1px solid var(--border-light);
@@ -4087,7 +4087,7 @@ main { flex: 1 0 auto; }
   width: 56px;
   height: 56px;
   margin: 0 auto 20px;
-  color: #9e681d;
+  color: #896e10;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -4225,7 +4225,7 @@ main { flex: 1 0 auto; }
 
 /* Card Styles */
 .services-service-catalog-section__card {
-  background: #ffffff;
+  background: #FFFFFF;
   border-radius: 8px;
   border: 1px solid var(--border-light);
   box-shadow: 0 8px 30px rgba(0,0,0,0.08);
@@ -5030,7 +5030,7 @@ main { flex: 1 0 auto; }
 }
 
 .faq-faq-list-section__card {
-  background: #ffffff;
+  background: #FFFFFF;
   border-radius: var(--radius-card);
   border: 1px solid var(--border-light);
   box-shadow: var(--shadow-subtle);
@@ -5659,7 +5659,7 @@ main { flex: 1 0 auto; }
 .testimonials-reviews-section__quote-icon {
   width: 28px;
   height: 28px;
-  color: #9e681d;
+  color: #896e10;
   opacity: 0.8;
   margin-bottom: 20px;
   flex-shrink: 0;
@@ -5809,7 +5809,7 @@ main { flex: 1 0 auto; }
   font-weight: 500;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: #9e681d;
+  color: #896e10;
   display: inline-block;
   position: relative;
   padding-inline-end: 48px;
@@ -5863,7 +5863,7 @@ main { flex: 1 0 auto; }
   width: 24px;
   height: 24px;
   flex-shrink: 0;
-  color: #9e681d;
+  color: #896e10;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -6039,7 +6039,7 @@ main { flex: 1 0 auto; }
 
 /* Trust Card */
 .testimonials-trust-signals-section .trust-card {
-  background: #ffffff;
+  background: #FFFFFF;
   border-radius: var(--radius-card, 8px);
   border: 1px solid var(--border-light);
   padding: var(--spacing-card-padding, 32px);
@@ -6375,7 +6375,7 @@ main { flex: 1 0 auto; }
 
 .contact-form__input::placeholder,
 .contact-form__textarea::placeholder {
-  color: #9e681d;
+  color: #896e10;
   opacity: 0.7;
 }
 
@@ -6416,13 +6416,13 @@ main { flex: 1 0 auto; }
 }
 
 .privacy-consent-label a {
-  color: #9e681d;
+  color: #896e10;
   text-decoration: underline;
   font-weight: 500;
 }
 
 .privacy-consent-label a:hover {
-  color: #9e681d;
+  color: #896e10;
 }
 
 /* Submit Button */
@@ -6474,7 +6474,7 @@ main { flex: 1 0 auto; }
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #9e681d;
+  color: #896e10;
 }
 
 .info-card__icon {
@@ -6513,7 +6513,7 @@ main { flex: 1 0 auto; }
   height: 20px;
   flex-shrink: 0;
   margin-top: 2px;
-  color: #9e681d;
+  color: #896e10;
 }
 
 .info-card__item span {
@@ -6542,7 +6542,7 @@ main { flex: 1 0 auto; }
   width: 20px;
   height: 20px;
   flex-shrink: 0;
-  color: #9e681d;
+  color: #896e10;
 }
 
 .info-card__detail a {
@@ -6555,7 +6555,7 @@ main { flex: 1 0 auto; }
 }
 
 .info-card__detail a:hover {
-  color: #9e681d;
+  color: #896e10;
 }
 
 /* Responsive */
@@ -7737,11 +7737,17 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 }
 
 
+
+
 /* === BUTTON TEXT OVERRIDES START === */
 .btn-secondary,
 .btn--secondary,
 [class*="btn-secondary"],
 [class*="btn--secondary"] { color: #333333 !important; }
+.btn-accent,
+.btn--accent,
+[class*="btn-accent"],
+[class*="btn--accent"] { color: #333333 !important; }
 .navbar .nav-cta-btn,
 .nav-cta-btn { color: #FFFFFF !important; }
 /* === BUTTON TEXT OVERRIDES END === */
