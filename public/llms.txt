@@ -55,7 +55,7 @@ Information about WCAG compliance and accessibility features.
 - Email: info@familypastport.co.il
 - Phone: +972545552211
 - Phone (tel): tel:+972545552211
-- Address: Nof Harim 402, Har Adar, 9083600, ישראל
+- Address: נןף הרים 402, הר אדר, 9083600, ישראל
 
 ### Contact form
 - URL: https://familypastport.com/contact
