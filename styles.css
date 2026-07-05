@@ -7779,6 +7779,13 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 }
 /* /Zappy custom logo size */
 
+
+.about-intro-section .about-hero-btn:hover {
+  background: rgba(212, 162, 58, 0.15) !important;
+  color: var(--accent-color, var(--accent, #F0D77F)) !important;
+  border-color: var(--accent-color, var(--accent, #F0D77F)) !important;
+  transform: translateY(-2px);
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
