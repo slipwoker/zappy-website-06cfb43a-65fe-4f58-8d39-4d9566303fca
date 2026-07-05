@@ -8058,6 +8058,14 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
     gap: 10px;
   }
 }
+
+@media (min-width: 769px) {
+.navbar .nav-brand img.logo {
+  width: auto !important;
+  height: 70px !important;
+  max-width: 300px !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
