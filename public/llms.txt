@@ -6,33 +6,33 @@
 
 ## Pages
 
-### בית
+### התחילו לתכנן את הטיול המשפחתי המושלם — FAMILYPASTPORT
 https://familypastport.com
 מחפשים תיועד משפחתי? FAMILYPASTPORT מציעה שירותי דרכונים ותיעוד נסיעות מותאמים אישית למשפחות. הפכו את חלום הטיול למציאות עוד היום!
 
-### אודות
+### הכירו את המומחים מאחורי התיועד המשפחתי — FAMILYPASTPORT
 https://familypastport.com/about
 ב-FAMILYPASTPORT אנו מבינים שתיועד משפחתי הוא מתנה יקרת ערך. קראו על הצוות המסור שהופך כל תיעוד נסיעות לחוויה משפחתית מרגשת.
 
-### שירותים
+### גלו את שירותי התיועד המשפחתי המלאים — FAMILYPASTPORT
 https://familypastport.com/services
 מחפשים מתנה לגיל 70 בלתי נשכחת? צפו במגוון השירותים שלנו לתיעוד נסיעות, דרכונים והפקת חוויות משפחתיות מותאמות אישית. בחרו את המושלם עבורכם!
 
-### שאלות ותשובות
+### כל התשובות על תיועד משפחתי ומתנות לגיל 70 — FAMILYPASTPORT
 https://familypastport.com/qa
 יש לכם שאלות על תיועד משפחתי או איך להפוך אותו למתנה לגיל 80? מצאו תשובות לכל השאלות הנפוצות על שירותי התיעוד שלנו והתחילו לתכנן בקלות.
-
-### מה אומרים עלינו
-https://familypastport.com/what-people-say-about-us
-מתנה לגיל 70 שהפכה לזיכרון מתוק: קראו המלצות נרגשות של משפחות שבחרו ב-FAMILYPASTPORT לתיעוד הנסיעות שלהן. הצטרפו גם אתם למעגל המרוצים!
-
-### צור קשר
-https://familypastport.com/contact
-מוכנים להפוך את התיועד המשפחתי למתנה לגיל 80 מרגשת? צרו קשר עם FAMILYPASTPORT עוד היום לקבלת ייעוץ אישי, הצעת מחיר ותחילת הדרך לחוויה משפחתית.
 
 ### תודה שפניתם אלינו | FAMILYPASTPORT
 https://familypastport.com/thank-you
 FAMILYPASTPORT - תודה שפניתם אלינו | FAMILYPASTPORT
+
+### צרו קשר והתחילו את התיועד המשפחתי שלכם — FAMILYPASTPORT
+https://familypastport.com/contact
+מוכנים להפוך את התיועד המשפחתי למתנה לגיל 80 מרגשת? צרו קשר עם FAMILYPASTPORT עוד היום לקבלת ייעוץ אישי, הצעת מחיר ותחילת הדרך לחוויה משפחתית.
+
+### משפחות מספרות על חוויית התיועד המושלמת — FAMILYPASTPORT
+https://familypastport.com/what-people-say-about-us
+מתנה לגיל 70 שהפכה לזיכרון מתוק: קראו המלצות נרגשות של משפחות שבחרו ב-FAMILYPASTPORT לתיעוד הנסיעות שלהן. הצטרפו גם אתם למעגל המרוצים!
 
 ## Legal & Policy
 
@@ -63,11 +63,11 @@ Information about WCAG compliance and accessibility features.
 - Method: POST
 - Content-Type: application/json
 - Fields:
-  - `name` (text, required)
-  - `email` (email, required)
-  - `phone` (tel, required)
-  - `message` (textarea, required)
-  - `privacy_consent` (checkbox, required)
+  - `name` (text)
+  - `email` (email)
+  - `phone` (tel)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox)
 
 ---
 
