@@ -8480,7 +8480,7 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 }
 
 .site-footer .footer-brand-typewriter {
-  font-family: 'Special Elite', 'Courier New', Courier, monospace !important;
+  font-family: 'Special Elite', 'Courier New', monospace !important;
   font-size: 20px;
   color: var(--background-color, var(--background, var(--bg-light, #FFFFFF))) !important;
   margin: 0;
@@ -8694,6 +8694,7 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 .site-footer .footer-brand-typewriter {
   color: rgba(255,255,255,0.7) !important;
 }
+
 /* Batch: Load Special Elite typewriter font site-wide */
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 /* mobile-submenu-overflow-fix */
