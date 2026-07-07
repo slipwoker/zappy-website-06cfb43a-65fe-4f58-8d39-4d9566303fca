@@ -8364,6 +8364,36 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
     font-size: 10px !important;
   }
 }
+/* Batch: Fix typewriter font specificity for company name in navbar across all pages */
+.navbar .nav-brand .nav-brand-text .nav-brand-name,
+.navbar .nav-brand .nav-brand-name {
+  font-family: 'Special Elite', 'Courier New', Courier, monospace !important;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  color: #FFFFFF !important;
+  letter-spacing: 1px !important;
+  white-space: nowrap !important;
+}
+
+.navbar .nav-brand .nav-brand-text .nav-brand-slogan,
+.navbar .nav-brand .nav-brand-slogan {
+  font-size: 12px !important;
+  font-weight: 300 !important;
+  color: #D4A23A !important;
+  white-space: nowrap !important;
+  letter-spacing: 0.5px !important;
+}
+
+@media (max-width: 768px) {
+  .navbar .nav-brand .nav-brand-text .nav-brand-name,
+  .navbar .nav-brand .nav-brand-name {
+    font-size: 13px !important;
+  }
+  .navbar .nav-brand .nav-brand-text .nav-brand-slogan,
+  .navbar .nav-brand .nav-brand-slogan {
+    font-size: 10px !important;
+  }
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
