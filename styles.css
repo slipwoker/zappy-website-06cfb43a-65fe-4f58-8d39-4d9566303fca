@@ -8624,6 +8624,78 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   grid-template-columns: 1fr !important;
 }
 }
+
+.services-overview-section__badge {
+  position: absolute !important;
+  top: 18px !important;
+  right: -32px !important;
+  left: auto !important;
+  background: linear-gradient(135deg, var(--secondary-color, var(--secondary, #D4A23A)) 0%, var(--accent-color, var(--accent, #F0D77F)) 50%, var(--secondary-color, var(--secondary, #D4A23A)) 100%) !important;
+  color: #0D1520 !important;
+  font-size: 0.8rem !important;
+  font-weight: 800 !important;
+  padding: 8px 40px !important;
+  border-radius: 0 !important;
+  letter-spacing: 0.08em !important;
+  z-index: 10 !important;
+  transform: rotate(45deg) !important;
+  transform-origin: center !important;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5) !important;
+  text-align: center !important;
+  width: auto !important;
+  line-height: 1.4 !important;
+  border: 1px solid rgba(255,255,255,0.3) !important;
+}
+
+.services-overview-section__card--coming-soon {
+  overflow: hidden !important;
+}
+
+.site-footer .footer-brand-typewriter {
+  font-family: 'Special Elite', 'Courier New', monospace !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.03em !important;
+}
+
+.site-footer .footer-brand-col {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  gap: 16px !important;
+}
+
+.site-footer .footer-brand-col .logo {
+  order: 2 !important;
+  margin: 0 !important;
+  max-width: 60px !important;
+}
+
+.site-footer .footer-brand-typewriter {
+  order: 1 !important;
+  font-family: 'Special Elite', 'Courier New', monospace !important;
+  font-weight: 400 !important;
+  font-size: 1.1rem !important;
+  letter-spacing: 0.03em !important;
+  color: var(--background-color, var(--background, var(--bg-light, #FFFFFF))) !important;
+  margin: 0 !important;
+}
+
+.site-footer .footer-brand-slogan {
+  order: 1 !important;
+  color: rgba(255,255,255,0.7) !important;
+  font-size: 0.85rem !important;
+  margin: 0 !important;
+}
+
+.site-footer .footer-brand-slogan {
+  color: var(--background-color, var(--background, var(--bg-light, #FFFFFF))) !important;
+}
+
+.site-footer .footer-brand-typewriter {
+  color: rgba(255,255,255,0.7) !important;
+}
+/* Batch: Load Special Elite typewriter font site-wide */
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
