@@ -8697,6 +8697,224 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 
 /* Batch: Load Special Elite typewriter font site-wide */
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+/* AI-generated section */
+.fpp-about-story {
+  background-color: var(--background-color, #FFFFFF);
+  padding: 80px 24px;
+  direction: rtl;
+  font-family: system-ui, sans-serif;
+}
+
+.fpp-about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+/* Image Column */
+.fpp-about-image-col {
+  position: relative;
+}
+
+.fpp-image-frame {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(16, 42, 71, 0.15);
+}
+
+.fpp-about-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  object-fit: cover;
+  border-radius: 16px;
+  transition: transform 0.5s ease;
+}
+
+.fpp-image-frame:hover .fpp-about-image {
+  transform: scale(1.02);
+}
+
+.fpp-image-accent {
+  position: absolute;
+  bottom: -12px;
+  right: -12px;
+  width: 120px;
+  height: 120px;
+  border: 4px solid var(--secondary-color, #D4A23A);
+  border-radius: 16px;
+  z-index: -1;
+  opacity: 0.6;
+}
+
+/* Text Column */
+.fpp-about-text-col {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.fpp-about-heading {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: var(--primary-color, #102A47);
+  line-height: 1.3;
+  margin: 0;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.fpp-about-heading::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  height: 3px;
+  background: var(--secondary-color, #D4A23A);
+  border-radius: 2px;
+}
+
+.fpp-about-paragraphs {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.fpp-about-paragraphs p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: var(--text-color, #4A4A4A);
+  margin: 0;
+}
+
+/* Benefits List */
+.fpp-benefits-list {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.fpp-benefit-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 18px;
+  background-color: var(--surface-color, #F9FAFB);
+  border-radius: 12px;
+  border: 1px solid rgba(16, 42, 71, 0.08);
+  transition: all 0.3s ease;
+}
+
+.fpp-benefit-item:hover {
+  background-color: #fff;
+  border-color: var(--secondary-color, #D4A23A);
+  box-shadow: 0 4px 20px rgba(16, 42, 71, 0.08);
+  transform: translateX(-4px);
+}
+
+.fpp-benefit-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  min-width: 36px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--secondary-color, #D4A23A), var(--accent-color, #F0D77F));
+  color: var(--primary-color, #102A47);
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.fpp-benefit-text {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--primary-color, #102A47);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .fpp-about-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .fpp-about-image-col {
+    order: -1;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .fpp-about-image {
+    min-height: 350px;
+  }
+
+  .fpp-about-heading {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .fpp-about-heading::after {
+    right: 50%;
+    transform: translateX(50%);
+  }
+
+  .fpp-about-paragraphs p {
+    text-align: center;
+  }
+
+  .fpp-image-accent {
+    width: 80px;
+    height: 80px;
+    bottom: -8px;
+    right: -8px;
+  }
+}
+
+@media (max-width: 600px) {
+  .fpp-about-story {
+    padding: 50px 16px;
+  }
+
+  .fpp-about-heading {
+    font-size: 1.7rem;
+  }
+
+  .fpp-about-paragraphs p {
+    font-size: 0.98rem;
+    line-height: 1.7;
+  }
+
+  .fpp-about-image {
+    min-height: 280px;
+  }
+
+  .fpp-benefit-item {
+    padding: 12px 14px;
+  }
+
+  .fpp-benefit-text {
+    font-size: 1rem;
+  }
+
+  .fpp-benefit-icon {
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    font-size: 1.2rem;
+  }
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
