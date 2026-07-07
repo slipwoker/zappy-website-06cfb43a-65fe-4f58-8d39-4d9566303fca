@@ -245,7 +245,7 @@
 
 
   
-    <!- Favicons ->
+    <!--- Favicons --->
     <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
@@ -253,11 +253,326 @@
     <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon-192x192.png">
     <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon-512x512.png">
     <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
-    <!- Cookie Consent ->
+    <!--- Cookie Consent --->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css">
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
-    <!- Mickidum Accessibility Toolbar ->
+    <!--- Mickidum Accessibility Toolbar --->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.home-section-2-section {
+  background-color: var(--bg-dark);
+  background-image: 
+    radial-gradient(ellipse at 20% 30%, rgba(212, 162, 58, 0.06) 0%, transparent 60%),
+    radial-gradient(ellipse at 80% 70%, rgba(240, 215, 127, 0.04) 0%, transparent 50%),
+    linear-gradient(175deg, #0D1520 0%, #111D2E 100%);
+  color: var(--text-light);
+  padding: 100px 16px 80px;
+  position: relative;
+  overflow: hidden;
+  direction: rtl;
+  text-align: right;
+}
+
+/* Decorative Background Pattern */
+.home-section-2-section__bg-pattern {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(rgba(201, 168, 76, 0.04) 1px, transparent 1px);
+  background-size: 28px 28px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Decorative Wheat Sprig */
+.home-section-2-section__deco-wheat {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  z-index: 1;
+  opacity: 0.8;
+  pointer-events: none;
+  transform: rotate(-15deg);
+}
+
+/* Decorative Stamp */
+.home-section-2-section__deco-stamp {
+  position: absolute;
+  bottom: 60px;
+  left: 40px;
+  z-index: 1;
+  opacity: 0.8;
+  pointer-events: none;
+  transform: rotate(10deg);
+}
+
+/* Main Container */
+.home-section-2-section__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+/* Asymmetrical Grid */
+.home-section-2-section__grid {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
+}
+
+/* Media Column */
+.home-section-2-section__media {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  flex-shrink: 0;
+}
+
+.home-section-2-section__photo-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  background-color: #1A2744;
+  border-radius: 8px;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.4), 0 0 0 4px rgba(212, 162, 58, 0.2);
+  overflow: hidden;
+  transform: rotate(-1deg);
+  transition: transform 0.3s ease;
+}
+
+.home-section-2-section__photo-frame:hover {
+  transform: rotate(0deg);
+}
+
+.home-section-2-section__main-photo {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  filter: sepia(0.2) contrast(1.05);
+}
+
+.home-section-2-section__frame-border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+/* Scrapbook Tape */
+.home-section-2-section__tape {
+  position: absolute;
+  top: -15px;
+  right: 20px;
+  width: 80px;
+  height: 30px;
+  background: rgba(240, 215, 127, 0.25);
+  backdrop-filter: blur(2px);
+  transform: rotate(5deg);
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  z-index: 3;
+}
+
+/* Polaroid Accent (Decorative) */
+.home-section-2-section__polaroid-accent {
+  position: absolute;
+  bottom: -30px;
+  left: -20px;
+  width: 100px;
+  height: 120px;
+  background: #F5E6C0;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  padding: 8px 8px 30px;
+  transform: rotate(5deg);
+  z-index: 1;
+  border-radius: 2px;
+}
+
+.home-section-2-section__polaroid-inner {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #1A2744 0%, #2A3F5F 100%);
+  border: 1px solid rgba(212, 162, 58, 0.3);
+}
+
+/* Content Column */
+.home-section-2-section__content {
+  width: 100%;
+  max-width: 600px;
+}
+
+.home-section-2-section__heading {
+  font-family: 'Cormorant Garamond', 'Playfair Display', serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #F5E6C0;
+  margin: 0 0 16px 0;
+  letter-spacing: -0.01em;
+  text-align: right;
+}
+
+.home-section-2-section__accent-rule {
+  width: 80px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--secondary), var(--accent));
+  margin: 0 0 24px auto;
+  border-radius: 2px;
+}
+
+.home-section-2-section__text {
+  font-family: 'Inter', 'Assistant', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.8;
+  color: #B0C4D8;
+  margin: 0 0 20px 0;
+  text-align: right;
+}
+
+.home-section-2-section__features {
+  list-style: none;
+  padding: 0;
+  margin: 32px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.home-section-2-section__feature-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-align: right;
+}
+
+.home-section-2-section__feature-icon {
+  font-size: 1.2rem;
+  color: var(--secondary);
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  background: rgba(212, 162, 58, 0.1);
+  border-radius: 50%;
+  border: 1px solid rgba(212, 162, 58, 0.3);
+}
+
+.home-section-2-section__feature-text {
+  font-family: 'Inter', 'Assistant', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: #F5E6C0;
+  line-height: 1.4;
+}
+
+/* Desktop Styles */
+@media (min-width: 768px) {
+  .home-section-2-section {
+    padding: 120px 40px 100px;
+  }
+
+  .home-section-2-section__grid {
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+  }
+
+  .home-section-2-section__media {
+    width: 45%;
+    max-width: 480px;
+  }
+
+  .home-section-2-section__content {
+    width: 55%;
+    max-width: 620px;
+  }
+
+  .home-section-2-section__heading {
+    font-size: 2.8rem;
+    line-height: 1.25;
+  }
+
+  .home-section-2-section__text {
+    font-size: 1.05rem;
+  }
+
+  .home-section-2-section__polaroid-accent {
+    width: 120px;
+    height: 150px;
+    bottom: -40px;
+    left: -30px;
+  }
+
+  .home-section-2-section__tape {
+    width: 100px;
+    height: 35px;
+    top: -20px;
+    right: 30px;
+  }
+}
+
+/* Large Desktop */
+@media (min-width: 1024px) {
+  .home-section-2-section__grid {
+    gap: 80px;
+  }
+  
+  .home-section-2-section__heading {
+    font-size: 3rem;
+  }
+}
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+  .home-section-2-section {
+    padding-top: 100px;
+    padding-bottom: 60px;
+  }
+
+  .home-section-2-section__deco-wheat {
+    top: 20px;
+    right: 10px;
+    transform: scale(0.7) rotate(-15deg);
+  }
+
+  .home-section-2-section__deco-stamp {
+    bottom: 20px;
+    left: 10px;
+    transform: scale(0.7) rotate(10deg);
+  }
+
+  .home-section-2-section__heading {
+    font-size: 1.8rem;
+  }
+
+  .home-section-2-section__polaroid-accent {
+    width: 80px;
+    height: 100px;
+    bottom: -20px;
+    left: -10px;
+    padding: 5px 5px 20px;
+  }
+
+  .home-section-2-section__tape {
+    width: 60px;
+    height: 20px;
+    top: -10px;
+    right: 15px;
+  }
+}
+</style>
     <link rel="stylesheet" href="/styles.css">
     <script>window.ZAPPY_WEBSITE_ID = "06cfb43a-65fe-4f58-8d39-4d9566303fca"; window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
     <link rel="preload" as="image" href="/assets/site-index-hero-image-1.webp" fetchpriority="high">
@@ -884,7 +1199,7 @@
         </header>
         
         <div class="index-services-section__grid">
-            <!- Card 1: קפסולת הזמן ->
+            <!--- Card 1: קפסולת הזמן --->
             <article class="index-services-section__card">
                 <div class="index-services-section__card-icon">
                     <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="1.5">
@@ -898,7 +1213,7 @@
                 <span class="index-services-section__card-price">החל מ- 1,500 ₪</span>
             </article>
 
-            <!- Card 2: סרט מורשת אישי ->
+            <!--- Card 2: סרט מורשת אישי --->
             <article class="index-services-section__card">
                 <div class="index-services-section__card-icon">
                     <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="1.5">
@@ -913,7 +1228,7 @@
                 <span class="index-services-section__card-price">החל מ- 6,000 ₪</span>
             </article>
 
-            <!- Card 3: המפגש הבין-דורי ->
+            <!--- Card 3: המפגש הבין-דורי --->
             <article class="index-services-section__card">
                 <div class="index-services-section__card-icon">
                     <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="1.5">
@@ -927,7 +1242,7 @@
                 <span class="index-services-section__card-price">החל מ- 8,000 ₪</span>
             </article>
 
-            <!- Card 4: חקר תולדות המשפחה ->
+            <!--- Card 4: חקר תולדות המשפחה --->
             <article class="index-services-section__card">
                 <div class="index-services-section__card-icon">
                     <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="1.5">
@@ -941,7 +1256,7 @@
                 <span class="index-services-section__card-price">לפי הצעה אישית</span>
             </article>
 
-            <!- Card 5: איתור מסמכים ->
+            <!--- Card 5: איתור מסמכים --->
             <article class="index-services-section__card">
                 <div class="index-services-section__card-icon">
                     <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="1.5">
@@ -956,7 +1271,7 @@
                 <span class="index-services-section__card-price">לפי הצעה אישית</span>
             </article>
 
-            <!- Card 6: שיקום תמונות ->
+            <!--- Card 6: שיקום תמונות --->
             <article class="index-services-section__card">
                 <div class="index-services-section__card-icon">
                     <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="1.5">
@@ -970,7 +1285,7 @@
         </div>
     </div>
 
-    <div class="index-services-section__divider-wrapper">
+    <div class="index-services-section__divider-wrapper" style="; display: none !important;">
         <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
             <defs>
                 <linearGradient id="services-divider-grad" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -985,137 +1300,96 @@
     </div>
 </section>
 
-<section class="fpp-about-story" aria-labelledby="fpp-about-heading" dir="rtl">
-  <div class="fpp-about-container">
-    <div class="fpp-about-image-col">
-      <div class="fpp-image-frame">
-        <img data-placeholder="about-story-family-photo" data-context="משפחה נוסטלגית מתחבקת, תמונה ישנה בסגנון וינטג' חם, סגנון צילום דוקומנטרי רך, תאורה טבעית, אווירה משפחתית נוסטלגית, צבעים חמים ומוזהבים" src="/assets/attached-1783429231262-evb1a9.webp" alt="תמונה משפחתית נוסטלגית" class="fpp-about-image">
-        <div class="fpp-image-accent"></div>
-      </div>
-    </div>
-    <div class="fpp-about-text-col">
-      <h2 class="fpp-about-heading" id="fpp-about-heading">מה הדורות הבאים ידעו על האהובים עליכם?</h2>
-      <div class="fpp-about-paragraphs">
-        <p>סיפורי המשפחה הם האוצר היקר ביותר שאנו משאירים אחרינו. הרגעים הקטנים, הזיכרונות, החוויות שעיצבו את חיי יקירינו — כל אלה עלולים להיעלם עם הזמן אם לא נתעד אותם כראוי. ב-Family PastPort אנו מאמינים שלכל משפחה מגיע שהסיפור שלה יסופר ויישמר.</p>
-        <p>הטכנולוגיה המודרנית מאפשרת לנו לתעד הכל, אך דווקא הסיפורים האישיים והאותנטיים ביותר נותרים לעתים קרובות מאחור. Family PastPort נולדה מתוך ההבנה שזיכרונות אינם רק תמונות באלבום — הם קולות, ניחוחות, סיפורים שעוברים מדור לדור. אנו יוצרים תיעוד חי ונושם של מורשתכם המשפחתית.</p>
-        <p>באמצעות שילוב ייחודי של רגישות אנושית, מחקר מעמיק וטכנולוגיה מתקדמת, אנו בונים גשר חי בין העבר, ההווה והעתיד של משפחתכם. כל סיפור מתועד בכבוד, באהבה ובמקצועיות — כדי שהדורות הבאים יוכלו להכיר באמת את אלה שבאו לפניהם.</p>
-      </div>
-      <ul class="fpp-benefits-list" aria-label="היתרונות שלנו">
-        <li class="fpp-benefit-item">
-          <span class="fpp-benefit-icon" aria-hidden="true">+</span>
-          <span class="fpp-benefit-text">ראיה אנושית רגישה</span>
-        </li>
-        <li class="fpp-benefit-item">
-          <span class="fpp-benefit-icon" aria-hidden="true">+</span>
-          <span class="fpp-benefit-text">מחקר ארכיוני מקצועי</span>
-        </li>
-        <li class="fpp-benefit-item">
-          <span class="fpp-benefit-icon" aria-hidden="true">+</span>
-          <span class="fpp-benefit-text">גשר חי בין הדורות</span>
-        </li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-
-
-<section data-band-index="2" class="index-storytelling-section" data-layout-spec="בית-storytelling" id="index-storytelling-section">
-  <div class="index-storytelling-section__container">
-    <!- Content Column (Right in RTL) ->
-    <article class="index-storytelling-section__content">
-      <h2 class="index-storytelling-section__heading">הסיפור המשפחתי שלכם, מתועד באהבה</h2>
-      <p class="index-storytelling-section__text">ב-FAMILYPASTPORT אנחנו מאמינים שכל משפחה היא אוצר של זיכרונות. השירות שלנו נולד מתוך ההבנה שהדור המבוגר נושא עמו סיפורים שלא יסופרו לעולם – אלא אם ניתן להם את הזמן, הכבוד והמרחב לספר אותם בקצב שלהם. אנחנו כאן כדי להפוך את הרגעים האלו לתיעוד משפחתי מרגש, מסודר ובר-קיימא.</p>
-      <p class="index-storytelling-section__text">הגישה שלנו עדינה ומכבדת. אנחנו יושבים עם ההורים והסבים שלכם, מקשיבים, שואלים, ומתעדים – בלי לחץ, בלי מועדים מלחיצים. התוצאה היא לא סתם מסמך, אלא מתנה משפחתית: ארכיון חי של ערכים, חוויות ותובנות שיעברו מדור לדור.</p>
-      
-      <ul class="index-storytelling-section__benefits">
-        <li class="index-storytelling-section__benefit-item" data-grid-item-index="0">
-          <div class="index-storytelling-section__benefit-icon-wrapper">
-            <svg class="index-storytelling-section__benefit-icon" data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M8 12H16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 8V16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-          </div>
-          <div class="index-storytelling-section__benefit-content">
-            <h3 class="index-storytelling-section__benefit-title">תהליך עדין ומכבד</h3>
-            <p class="index-storytelling-section__benefit-text">אנחנו מתאימים את הקצב לצרכים של כל אחד, עם סבלנות אין-סופית ורגישות למצבים משתנים.</p>
-          </div>
-        </li>
-        <li class="index-storytelling-section__benefit-item" data-grid-item-index="1">
-          <div class="index-storytelling-section__benefit-icon-wrapper">
-            <svg class="index-storytelling-section__benefit-icon" data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 12V20H4V12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M22 7H2V12H22V7Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 20V7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 7H16.5C17.8807 7 19 5.88071 19 4.5C19 3.11929 17.8807 2 16.5 2C13 2 12 7 12 7Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 7H7.5C6.11929 7 5 5.88071 5 4.5C5 3.11929 6.11929 2 7.5 2C11 2 12 7 12 7Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-          </div>
-          <div class="index-storytelling-section__benefit-content">
-            <h3 class="index-storytelling-section__benefit-title">מתנה בעלת ערך רגשי</h3>
-            <p class="index-storytelling-section__benefit-text">אלבום תיעוד משפחתי הוא המתנה המושלמת ליום הולדת 70 או 80 – מזכרת נצחית שמחברת בין דורות.</p>
-          </div>
-        </li>
-        <li class="index-storytelling-section__benefit-item" data-grid-item-index="2">
-          <div class="index-storytelling-section__benefit-icon-wrapper">
-            <svg class="index-storytelling-section__benefit-icon" data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14 2H6C4.89543 2 4 2.89543 4 4V20C4 21.1046 4.89543 22 6 22H18C19.1046 22 20 21.1046 20 20V8L14 2Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M14 2V8H20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M16 13H8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M16 17H8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M10 9H9H8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-          </div>
-          <div class="index-storytelling-section__benefit-content">
-            <h3 class="index-storytelling-section__benefit-title">ארכיון משפחתי לדורות</h3>
-            <p class="index-storytelling-section__benefit-text">אנחנו יוצרים תיעוד מסודר, מודפס ודיגיטלי, ששומר על הסיפור המשפחתי שלכם לדורות הבאים.</p>
-          </div>
-        </li>
-      </ul>
-    </article>
-
-    <!- Media Column (Left in RTL) ->
-    <aside class="index-storytelling-section__media">
-      <div class="index-storytelling-section__frame-wrapper">
-        <!- Arch Frame ->
-        <svg class="index-storytelling-section__arch-frame" data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 400 480" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M40 460 L40 140 Q40 20 200 20 Q360 20 360 140 L360 460" stroke="#D4A23A" stroke-width="6" fill="none"></path>
-          <path d="M30 460 L30 140 Q30 10 200 10 Q370 10 370 140 L370 460" stroke="#D4A23A" stroke-width="1.5" fill="none" opacity="0.5"></path>
-        </svg>
-        <!- Portrait Image ->
-        <div class="index-storytelling-section__image-container" style="width: 400px !important; max-width: 100% !important; height: 511px !important; flex: 0 0 auto !important; align-self: flex-start !important;" data-zappy-image-frame-synced="true">
-          <div data-zappy-zoom-wrapper="true" data-element-id="img-1783269115665-30f4hd7v4" data-element-type="image" data-zappy-zoom-wrapper-width="400px" data-zappy-zoom-wrapper-height="282px" data-zappy-zoom-wrapper-width-mode="px" data-zappy-zoom-wrapper-align="left" style="position: relative !important; overflow: hidden !important; width: 400px !important; max-width: 100% !important; margin-left: 0px !important; margin-right: auto !important; height: 282px !important; display: block !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true"><img decoding="async" data-placeholder="index-storytelling-image-1" data-context="A warm, intimate portrait of an older adult parent sitting alongside their adult child, both smiling gently, soft natural lighting, cream and navy tones, emotional family connection" width="400" height="500" src="/assets/attached-1783429231262-evb1a9.webp?v=1783429231262" alt="דיוקן משפחתי חם של הורה מבוגר עם ילדו הבוגר, מחייכים בעדינות" class="index-storytelling-section__image" data-element-type="image" data-element-id="img-1783269115665-30f4hd7v4" style="object-position: 50% 50% !important; width: 100% !important; max-width: none !important; max-height: none !important; height: 100% !important; object-fit: cover !important; display: block !important; margin: 0px !important; left: 0% !important; top: 0% !important;" data-zappy-object-position="50% 50%" data-zappy-zoom="1"></div>
-        </div>
-      </div>
-      <!- Bronze-Gold Backplate peeking from bottom-end corner ->
-      <div class="index-storytelling-section__backplate" aria-hidden="true"></div>
-    </aside>
-  </div>
-
-  <!- Section Divider (Bottom) ->
-  <div class="index-storytelling-section__divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <linearGradient id="storytelling-fade" x1="0%" y1="0%" x2="0%" y2="100%">
-          <stop offset="0%" stop-color="var(-bg-light)" stop-opacity="0"></stop>
-          <stop offset="100%" stop-color="var(-bg-dark)" stop-opacity="1"></stop>
-        </linearGradient>
-      </defs>
-      <!- Base fade background ->
-      <rect x="0" y="0" width="1200" height="120" fill="url(#storytelling-fade)"></rect>
-      <!- Centered gold leaf-and-branch ornament ->
-      <g transform="translate(600, 60) scale(0.8)" fill="none" stroke="#D4A23A" stroke-width="1.5" opacity="0.8">
-        <!- Central emblem circle ->
-        <circle cx="0" cy="0" r="18" stroke-width="2"></circle>
-        <circle cx="0" cy="0" r="14" stroke-width="1" opacity="0.6"></circle>
-        <!- Left branch ->
-        <path d="M-18,0 Q-35,-15 -50,-8 Q-65,-2 -70,10" stroke-width="1.8"></path>
-        <path d="M-50,-8 Q-55,-20 -48,-25" stroke-width="1.2"></path>
-        <path d="M-60,-2 Q-68,-12 -65,-20" stroke-width="1.2"></path>
-        <!- Right branch ->
-        <path d="M18,0 Q35,-15 50,-8 Q65,-2 70,10" stroke-width="1.8"></path>
-        <path d="M50,-8 Q55,-20 48,-25" stroke-width="1.2"></path>
-        <path d="M60,-2 Q68,-12 65,-20" stroke-width="1.2"></path>
-        <!- Small leaves ->
-        <ellipse cx="-55" cy="-18" rx="4" ry="2" transform="rotate(-30 -55 -18)" fill="#D4A23A" opacity="0.7"></ellipse>
-        <ellipse cx="-68" cy="-14" rx="4" ry="2" transform="rotate(20 -68 -14)" fill="#D4A23A" opacity="0.7"></ellipse>
-        <ellipse cx="55" cy="-18" rx="4" ry="2" transform="rotate(30 55 -18)" fill="#D4A23A" opacity="0.7"></ellipse>
-        <ellipse cx="68" cy="-14" rx="4" ry="2" transform="rotate(-20 68 -14)" fill="#D4A23A" opacity="0.7"></ellipse>
-      </g>
+<section class="home-section-2-section" data-layout-spec="Home-section-2" data-zappy-section="true">
+  <!-- Decorative Background Pattern -->
+  <div class="home-section-2-section__bg-pattern" aria-hidden="true"></div>
+  
+  <!-- Decorative Wheat Sprig Top Left -->
+  <div class="home-section-2-section__deco-wheat" aria-hidden="true">
+    <svg data-no-icon-edit="true" aria-hidden="true" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M30 10 C25 15, 20 25, 15 30 C20 28, 25 25, 30 20 C35 25, 40 28, 45 30 C40 25, 35 15, 30 10Z" fill="var(--secondary)" opacity="0.4"></path>
+      <path d="M30 15 C27 20, 24 28, 20 32 C24 30, 28 28, 30 24 C32 28, 36 30, 40 32 C36 28, 33 20, 30 15Z" fill="var(--accent)" opacity="0.6"></path>
+      <path d="M30 20 C28 24, 26 30, 24 34 C27 32, 29 30, 30 28 C31 30, 33 32, 36 34 C34 30, 32 24, 30 20Z" fill="var(--secondary)" opacity="0.8"></path>
+      <line x1="30" y1="35" x2="30" y2="55" stroke="var(--secondary)" stroke-width="2" opacity="0.6"></line>
     </svg>
   </div>
+
+  <!-- Decorative Stamp/Emblem Bottom Right -->
+  <div class="home-section-2-section__deco-stamp" aria-hidden="true">
+    <svg data-no-icon-edit="true" aria-hidden="true" width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="60" cy="60" r="55" stroke="var(--secondary)" stroke-width="1.5" opacity="0.3"></circle>
+      <circle cx="60" cy="60" r="45" stroke="var(--accent)" stroke-width="1" stroke-dasharray="4 4" opacity="0.3"></circle>
+      <path d="M60 20 L65 40 L85 40 L70 52 L75 72 L60 60 L45 72 L50 52 L35 40 L55 40 Z" fill="var(--secondary)" opacity="0.15"></path>
+      <text x="60" y="95" text-anchor="middle" fill="var(--secondary)" font-size="8" font-family="serif" opacity="0.4">FAMILY</text>
+    </svg>
+  </div>
+
+  <div class="home-section-2-section__container">
+    
+    <!-- Main Content Grid: Asymmetrical Split -->
+    <div class="home-section-2-section__grid">
+      
+      <!-- Left/Top Column: Image & Collage -->
+      <div class="home-section-2-section__media">
+        <div class="home-section-2-section__photo-frame">
+          <div class="home-section-2-section__main-photo" style="background-image: url('assets/attached-1783429231262-evb1a9.webp'); background-size: cover; background-position: center;" role="img" aria-label="תמונה משפחתית נוסטלגית"></div>
+          <!-- Hand-drawn style border overlay -->
+          <svg class="home-section-2-section__frame-border" data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 100 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="2" y="2" width="96" height="96" rx="4" fill="none" stroke="var(--secondary)" stroke-width="1.5" opacity="0.5" stroke-dasharray="8 4"></rect>
+            <rect x="5" y="5" width="90" height="90" rx="2" fill="none" stroke="var(--accent)" stroke-width="0.5" opacity="0.4"></rect>
+          </svg>
+        </div>
+        
+        <!-- Scrapbook Tape Element -->
+        <div class="home-section-2-section__tape" aria-hidden="true"></div>
+        
+        <!-- Small Polaroid-style accent image (decorative only, using CSS) -->
+        <div class="home-section-2-section__polaroid-accent" aria-hidden="true">
+          <div class="home-section-2-section__polaroid-inner"></div>
+        </div>
+      </div>
+
+      <!-- Right/Bottom Column: Text Content -->
+      <div class="home-section-2-section__content">
+        <h2 class="home-section-2-section__heading">מה הדורות הבאים ידעו על האהובים עליכם?</h2>
+        
+        <div class="home-section-2-section__accent-rule" aria-hidden="true"></div>
+        
+        <p class="home-section-2-section__text">סיפורי המשפחה הם האוצר היקר ביותר שאנו משאירים אחרינו. הרגעים הקטנים, הזיכרונות, החוויות שעיצבו את חיי יקירינו — כל אלה עלולים להיעלם עם הזמן אם לא נתעד אותם כראוי. ב-Family PastPort אנו מאמינים שלכל משפחה מגיע שהסיפור שלה יסופר ויישמר.</p>
+        
+        <p class="home-section-2-section__text">הטכנולוגיה המודרנית מאפשרת לנו לתעד הכל, אך דווקא הסיפורים האישיים והאותנטיים ביותר נותרים לעתים קרובות מאחור. Family PastPort נולדה מתוך ההבנה שזיכרונות אינם רק תמונות באלבום — הם קולות, ניחוחות, סיפורים שעוברים מדור לדור. אנו יוצרים תיעוד חי ונושם של מורשתכם המשפחתית.</p>
+        
+        <ul class="home-section-2-section__features">
+          <li class="home-section-2-section__feature-item">
+            <span class="home-section-2-section__feature-icon" aria-hidden="true">✦</span>
+            <span class="home-section-2-section__feature-text">ראיה אנושית רגישה</span>
+          </li>
+          <li class="home-section-2-section__feature-item">
+            <span class="home-section-2-section__feature-icon" aria-hidden="true">✦</span>
+            <span class="home-section-2-section__feature-text">מחקר ארכיוני מקצועי</span>
+          </li>
+          <li class="home-section-2-section__feature-item">
+            <span class="home-section-2-section__feature-icon" aria-hidden="true">✦</span>
+            <span class="home-section-2-section__feature-text">גשר חי בין הדורות</span>
+          </li>
+        </ul>
+        
+        <p class="home-section-2-section__text">באמצעות שילוב ייחודי של רגישות אנושית, מחקר מעמיק וטכנולוגיה מתקדמת, אנו בונים גשר חי בין העבר, ההווה והעתיד של משפחתכם. כל סיפור מתועד בכבוד, באהבה ובמקצועיות — כדי שהדורות הבאים יוכלו להכיר באמת את אלה שבאו לפניהם.</p>
+      </div>
+
+    </div>
+  </div>
 </section>
+
+
+
+
 
 
 
 <section data-band-index="4" class="index-cta-section" data-layout-spec="בית-cta">
   <div class="index-cta-section__container">
-    <!- Decorative Laurel Wreath Emblem ->
+    <!--- Decorative Laurel Wreath Emblem --->
     <div class="index-cta-section__emblem" aria-hidden="true"><svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
   <circle cx="40" cy="40" r="38" stroke="var(-secondary)" stroke-width="1.5" opacity="0.3"></circle>
   <circle cx="40" cy="40" r="30" stroke="var(-secondary)" stroke-width="1" opacity="0.5"></circle>
@@ -1124,7 +1398,7 @@
   <path d="M36 56 C38 62 42 64 46 62" stroke="var(-secondary)" stroke-width="2" stroke-linecap="round" fill="none"></path>
 </svg></div>
 
-    <!- Content ->
+    <!--- Content --->
     <div class="index-cta-section__content">
       <h2 class="index-cta-section__heading">התחילו לשמר את סיפור המשפחה שלכם</h2>
       <p class="index-cta-section__text">
@@ -1139,14 +1413,14 @@
   <footer class="site-footer" dir="rtl">
   <div class="footer-container">
     <div class="footer-top">
-      <!- Column 1: Company Info ->
+      <!--- Column 1: Company Info --->
       <div class="footer-col footer-brand-col">
         <img src="/assets/site-services-benefits-image-1.webp?t=1783269642694" alt="FAMILYPASTPORT" class="logo zappy-resizable-hover" data-element-type="image" data-element-id="img-1783269479821-z1doamauc" data-zappy-footer-image="true" style="object-fit: contain; object-position: 50% 50%; width: auto; height: auto; max-width: 600px; display: block; border-radius: 8px; margin: 20px; filter: none !important;">
         <p class="footer-brand-typewriter" style="font-family: 'Special Elite', 'Courier New', monospace !important; font-weight: 400; letter-spacing: 0.03em;">Family PastPort</p>
         <p class="footer-brand-slogan">שימור מורשת משפחתית</p>
       </div>
 
-      <!- Column 2: Quick Links ->
+      <!--- Column 2: Quick Links --->
       <div class="footer-col footer-links-col">
         <h4>ניווט מהיר</h4>
         <ul class="footer-links">
@@ -1159,7 +1433,7 @@
         </ul>
       </div>
 
-      <!- Column 3: Contact Info ->
+      <!--- Column 3: Contact Info --->
       <div class="footer-col footer-contact-col">
         <h4>צור קשר</h4>
         <ul class="footer-contact">
@@ -1176,13 +1450,13 @@
         </ul>
       </div>
 
-      <!- Column 4: Business Hours ->
+      <!--- Column 4: Business Hours --->
       <div class="footer-col footer-hours-col">
         <h4 >שעות פעילות</h4>
         <ul class="footer-hours" ><li><a href="/"><span class="hours-day">ימים א’–ה’</span> <span class="hours-time">09:00–17:00</span></a></li><li><a href="/"><span class="hours-day">יום ו’</span> <span class="hours-time">09:00–13:00</span></a></li><li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li></ul>
       </div>
 
-      <!- Column 5: Social Media ->
+      <!--- Column 5: Social Media --->
       <div class="footer-col footer-social-col">
         <h4>עקבו אחרינו</h4>
         <div class="footer-social">
@@ -1194,7 +1468,7 @@
       </div>
     </div>
 
-    <!- Bottom Bar ->
+    <!--- Bottom Bar --->
     <div class="footer-bottom">
       <div class="footer-bottom-left">
         <p class="footer-copyright">© 2026 FAMILYPASTPORT. כל הזכויות שמורות.</p>
@@ -1267,148 +1541,6 @@
           observer.observe(menu, { attributes: true, attributeFilter: ['class', 'style'] });
         });
       }, 500);
-    })();
-    </script>
-
-    <script>
-    (function(){
-      var _applied=false;
-      function _isHeroBg(w){var img=w.querySelector('img');if(img&&(img.getAttribute('data-hero-bg')==='true'||img.getAttribute('data-hero-background')==='true'))return true;var p=(w.style.position||'').replace(/\s*!important\s*/g,'').trim();var ww=(w.style.width||'').replace(/\s*!important\s*/g,'').trim();var hh=(w.style.height||'').replace(/\s*!important\s*/g,'').trim();return p==='absolute'&&ww==='100%'&&hh==='100%';}
-      function fixDesktopWrappers(){
-        // No-op: desktop wrapper restoration is handled by ZAPPY_PUBLISHED_ZOOM_WRAPPER_RUNTIME
-        // in script.js (restoreWrapperDimensions). The old inflation logic here was expanding
-        // small wrappers (e.g. 139px logo wrappers) to their parent width, conflicting with
-        // the correct stored dimensions.
-      }
-      function _parsePos(s){var x=50,y=50;try{var m=(s||'').match(/(-?d+(?:.d+)?)%s+(-?d+(?:.d+)?)%/);if(m){x=parseFloat(m[1]);y=parseFloat(m[2]);}}catch(e){}if(!isFinite(x))x=50;if(!isFinite(y))y=50;return{x:Math.max(0,Math.min(100,x)),y:Math.max(0,Math.min(100,y))};}
-      function _coverPct(iA,cA){if(!isFinite(iA)||iA<=0||!isFinite(cA)||cA<=0)return{w:100,h:100};if(iA>=cA)return{w:(iA/cA)*100,h:100};return{w:100,h:(cA/iA)*100};}
-      function applyMobile(){
-        if(_applied)return;_applied=true;
-        document.querySelectorAll('[data-zappy-zoom-wrapper="true"]').forEach(function(w){
-          if(_isHeroBg(w))return;
-          var cw=w.style.getPropertyValue('width');
-          var _sW=parseFloat(w.getAttribute('data-zappy-zoom-wrapper-width'))||0;
-          var _sH=parseFloat(w.getAttribute('data-zappy-zoom-wrapper-height'))||0;
-          if(!cw&&!(_sW>0&&_sH>0))return;
-          if(!w._zappyDesktop)w._zappyDesktop={wStyle:w.getAttribute('style')};
-          var img=w.querySelector('img');
-          if(!img)return;
-          if(!img._zappyDesktop)img._zappyDesktop={src:img.getAttribute('src'),style:img.getAttribute('style')};
-          var mobileZoomStr=img.getAttribute('data-zappy-mobile-zoom');
-          var mobileZoom=parseFloat(mobileZoomStr);
-          var mobileSrc=img.getAttribute('data-zappy-mobile-src');
-          var mobilePos=img.getAttribute('data-zappy-mobile-object-position');
-          var parentOvf=w.parentElement?((w.parentElement.style.overflow||'')+(window.getComputedStyle(w.parentElement).overflow||'')).trim():'';
-          var inConstrainedParent=parentOvf.indexOf('hidden')!==-1||parentOvf.indexOf('clip')!==-1;
-          if(inConstrainedParent){
-            w.style.setProperty('max-width','100%','important');
-          }else{
-            w.style.setProperty('width','100%','important');
-            w.style.setProperty('max-width','100%','important');
-          }
-          if(mobileSrc)img.src=mobileSrc;
-          function _applyZoomCrop(_img,_w,_ePos,_eZoom){
-            var rect=_w.getBoundingClientRect();
-            if(!rect||!rect.width||!rect.height)return;
-            var nW=_img.naturalWidth||0,nH=_img.naturalHeight||0;
-            if(!(nW>0&&nH>0))return;
-            var iA=nW/nH,cA=rect.width/rect.height;
-            var cv=_coverPct(iA,cA);
-            var wP=100,hP=100;
-            if(_eZoom>=1){wP=cv.w*_eZoom;hP=cv.h*_eZoom;}
-            else{var t2=(_eZoom-0.5)/0.5;if(!isFinite(t2))t2=0;t2=Math.max(0,Math.min(1,t2));wP=100+t2*(cv.w-100);hP=100+t2*(cv.h-100);}
-            var p2=_parsePos(_ePos);
-            var lP=(100-wP)*(p2.x/100);
-            var tP=(100-hP)*(p2.y/100);
-            _img.style.setProperty('position','absolute','important');
-            _img.style.setProperty('left',lP+'%','important');
-            _img.style.setProperty('top',tP+'%','important');
-            _img.style.setProperty('width',wP+'%','important');
-            _img.style.setProperty('height',hP+'%','important');
-            _img.style.setProperty('max-width','none','important');
-            _img.style.setProperty('max-height','none','important');
-            _img.style.setProperty('display','block','important');
-            _img.style.setProperty('object-fit',_eZoom<1?'fill':'cover','important');
-            _img.style.setProperty('transform','none','important');
-            _img.style.setProperty('margin','0','important');
-          }
-          if(_sW>0&&_sH>0){
-            var effZoom=(isFinite(mobileZoom)&&mobileZoom>0)?mobileZoom:(parseFloat(img.getAttribute('data-zappy-zoom'))||1);
-            var effPos=mobilePos||img.getAttribute('data-zappy-object-position')||img.style.objectPosition||'50% 50%';
-            w.style.setProperty('overflow','hidden','important');
-            w.style.setProperty('position','relative','important');
-            w.style.setProperty('width','100%','important');
-            w.style.setProperty('max-width','100%','important');
-            if(_sW>0&&_sH>0){w.style.setProperty('padding-bottom','0','important');w.style.setProperty('aspect-ratio',_sW+'/'+_sH,'important');w.style.setProperty('height','auto','important');}
-            _applyZoomCrop(img,w,effPos,effZoom);
-            if(!(img.complete&&img.naturalWidth>0)){
-              (function(_i,_w2,_p,_z){_i.addEventListener('load',function _ol(){_i.removeEventListener('load',_ol);try{_applyZoomCrop(_i,_w2,_p,_z);}catch(e){}});
-              })(img,w,effPos,effZoom);
-            }
-          }else{
-            if(!inConstrainedParent)w.style.setProperty('height','auto','important');
-            img.style.setProperty('position','relative','important');
-            img.style.setProperty('width','100%','important');
-            img.style.setProperty('height','auto','important');
-            img.style.setProperty('max-width','100%','important');
-            img.style.setProperty('max-height',inConstrainedParent?'none':'400px','important');
-            img.style.setProperty('object-fit','cover','important');
-            img.style.setProperty('left','0','important');
-            img.style.setProperty('top','0','important');
-            img.style.setProperty('transform','none','important');
-          }
-        });
-        document.querySelectorAll('img[data-zappy-mobile-src],img[data-zappy-mobile-object-position],img[data-zappy-mobile-zoom]').forEach(function(img){
-          var zw=img.closest('[data-zappy-zoom-wrapper="true"]');
-          if(zw&&!_isHeroBg(zw))return;
-          if(!img._zappyDesktop)img._zappyDesktop={src:img.getAttribute('src'),style:img.getAttribute('style')};
-          var mobileSrc=img.getAttribute('data-zappy-mobile-src');
-          var mobilePos=img.getAttribute('data-zappy-mobile-object-position');
-          var mobileZoom=parseFloat(img.getAttribute('data-zappy-mobile-zoom'));
-          if(mobileSrc)img.src=mobileSrc;
-          if(mobilePos)img.style.setProperty('object-position',mobilePos,'important');
-          if(mobileZoom>1){
-            img.style.setProperty('transform','scale('+mobileZoom+')','important');
-            img.style.setProperty('transform-origin',mobilePos||'50% 50%','important');
-            var p=img.parentElement;
-            if(p)p.style.setProperty('overflow','hidden','important');
-          }
-        });
-      }
-      function revertDesktop(){
-        if(!_applied)return;_applied=false;
-        document.querySelectorAll('[data-zappy-zoom-wrapper="true"]').forEach(function(w){
-          if(w._zappyDesktop&&w._zappyDesktop.wStyle!=null){w.setAttribute('style',w._zappyDesktop.wStyle);}
-          var img=w.querySelector('img');
-          if(img&&img._zappyDesktop){
-            if(img._zappyDesktop.src!=null)img.setAttribute('src',img._zappyDesktop.src);
-            if(img._zappyDesktop.style!=null)img.setAttribute('style',img._zappyDesktop.style);
-            else img.removeAttribute('style');
-          }
-        });
-        document.querySelectorAll('img[data-zappy-mobile-src],img[data-zappy-mobile-object-position],img[data-zappy-mobile-zoom]').forEach(function(img){
-          var zw=img.closest('[data-zappy-zoom-wrapper="true"]');
-          if(zw&&!_isHeroBg(zw))return;
-          if(img._zappyDesktop){
-            if(img._zappyDesktop.src!=null)img.setAttribute('src',img._zappyDesktop.src);
-            if(img._zappyDesktop.style!=null)img.setAttribute('style',img._zappyDesktop.style);
-            else img.removeAttribute('style');
-          }
-        });
-        _fixHeroBgWrappers();
-        fixDesktopWrappers();
-      }
-      function _fixHeroBgWrappers(){var isMob=window.innerWidth<=768;document.querySelectorAll('[data-zappy-zoom-wrapper="true"]').forEach(function(w){if(!_isHeroBg(w))return;w.style.setProperty('position','absolute','important');w.style.setProperty('top','0','important');w.style.setProperty('left','0','important');w.style.setProperty('width','100%','important');w.style.setProperty('height','100%','important');w.style.setProperty('max-width','none','important');w.style.setProperty('overflow','hidden','important');w.setAttribute('data-zappy-zoom-wrapper-width-mode','full');var img=w.querySelector('img');if(img){img.style.setProperty('width','100%','important');img.style.setProperty('height','100%','important');img.style.setProperty('object-fit','cover','important');img.style.setProperty('position','relative','important');img.style.setProperty('top','0','important');img.style.setProperty('left','0','important');img.style.setProperty('max-width','none','important');img.style.setProperty('max-height','none','important');img.style.setProperty('display','block','important');if(isMob){var mSrc=img.getAttribute('data-zappy-mobile-src');var mPos=img.getAttribute('data-zappy-mobile-object-position');var mZoom=parseFloat(img.getAttribute('data-zappy-mobile-zoom'));if(mSrc){if(!img._zappyDesktop)img._zappyDesktop={src:img.getAttribute('src'),style:img.getAttribute('style')};img.src=mSrc;}if(mPos)img.style.setProperty('object-position',mPos,'important');if(mZoom>1){img.style.setProperty('transform','scale('+mZoom+')','important');img.style.setProperty('transform-origin',mPos||'50% 50%','important');}}}});}
-      function init(){
-        _fixHeroBgWrappers();
-        var mq=window.matchMedia('(max-width:768px)');
-        function onChange(e){if(e.matches)applyMobile();else revertDesktop();}
-        if(mq.matches)applyMobile();
-        else fixDesktopWrappers();
-        try{mq.addEventListener('change',onChange);}catch(e){mq.addListener(onChange);}
-      }
-      if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);
-      else setTimeout(init,50);
     })();
     </script>
 </body>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
 /* Self-hosted fonts (Inter + Rubik for multi-language support) */
 
 /* Inter font (English / LTR languages) */
@@ -8987,6 +8989,12 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   margin: 0;
   color: var(--text-color, var(--text, var(--text-dark, #4A4A4A)));
   line-height: 1.7;
+}
+
+.nav-brand-name, .footer-brand-typewriter, .navbar [class*="brand-name"], .site-footer [class*="brand-typewriter"] {
+  font-family: 'Special Elite', 'Courier New', Courier, monospace !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.03em !important;
 }
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
