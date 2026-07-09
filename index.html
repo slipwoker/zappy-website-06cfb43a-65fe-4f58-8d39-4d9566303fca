@@ -1300,7 +1300,7 @@
     </div>
 </section>
 
-<section class="home-section-2-section" data-layout-spec="Home-section-2" data-zappy-section="true">
+<section class="home-section-2-section" data-layout-spec="Home-section-2" data-zappy-section="true" id="home-section-2-section">
   <!-- Decorative Background Pattern -->
   <div class="home-section-2-section__bg-pattern" aria-hidden="true"></div>
   
@@ -1327,10 +1327,27 @@
   <div class="home-section-2-section__container">
     
     <!-- Main Content Grid: Asymmetrical Split -->
-    <div class="home-section-2-section__grid">
+    <div class="home-section-2-section__grid" data-original-item-width="480" data-original-gap="80px" data-original-justify-content="normal" style="--zappy-item-width: 480px; --zappy-justify-content: normal; gap: 80px;">
       
       <!-- Left/Top Column: Image & Collage -->
-      <div class="home-section-2-section__media">
+      <div class="home-section-2-section__media zappy-grid-item-no-stretch" style="background-color: rgba(0, 0, 0, 0) !important; grid-area: auto !important;" data-grid-item-index="0">
+        <div class="home-section-2-section__photo-frame">
+          <div class="home-section-2-section__main-photo" style="background-image: url('assets/attached-1783429231262-evb1a9.webp'); background-size: cover; background-position: center;" role="img" aria-label="תמונה משפחתית נוסטלגית"></div>
+          <!-- Hand-drawn style border overlay -->
+          <svg class="home-section-2-section__frame-border" data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 100 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="2" y="2" width="96" height="96" rx="4" fill="none" stroke="var(--secondary)" stroke-width="1.5" opacity="0.5" stroke-dasharray="8 4"></rect>
+            <rect x="5" y="5" width="90" height="90" rx="2" fill="none" stroke="var(--accent)" stroke-width="0.5" opacity="0.4"></rect>
+          </svg>
+        </div>
+        
+        <!-- Scrapbook Tape Element -->
+        <div class="home-section-2-section__tape" aria-hidden="true"></div>
+        
+        <!-- Small Polaroid-style accent image (decorative only, using CSS) -->
+        <div class="home-section-2-section__polaroid-accent" aria-hidden="true">
+          <div class="home-section-2-section__polaroid-inner"></div>
+        </div>
+      </div><div class="home-section-2-section__media zappy-grid-item-no-stretch" data-grid-item-index="1">
         <div class="home-section-2-section__photo-frame">
           <div class="home-section-2-section__main-photo" style="background-image: url('assets/attached-1783429231262-evb1a9.webp'); background-size: cover; background-position: center;" role="img" aria-label="תמונה משפחתית נוסטלגית"></div>
           <!-- Hand-drawn style border overlay -->
@@ -1350,7 +1367,7 @@
       </div>
 
       <!-- Right/Bottom Column: Text Content -->
-      <div class="home-section-2-section__content">
+      <div class="home-section-2-section__content" data-grid-item-index="2">
         <h2 class="home-section-2-section__heading">מה הדורות הבאים ידעו על האהובים עליכם?</h2>
         
         <div class="home-section-2-section__accent-rule" aria-hidden="true"></div>
