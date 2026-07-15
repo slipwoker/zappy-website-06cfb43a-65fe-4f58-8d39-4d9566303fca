@@ -9131,8 +9131,8 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 
 @media (min-width: 768px) {
 #home-section-2-section .home-section-2-section__media {
-  width: 48% !important;
-  max-width: 540px !important;
+  width: 52%;
+  max-width: 620px;
 }
 
 #home-section-2-section .home-section-2-section__polaroid-accent {
