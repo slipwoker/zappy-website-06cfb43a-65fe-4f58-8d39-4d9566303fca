@@ -9181,6 +9181,69 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   padding: 12px 12px 44px !important;
 }
 }
+/* Batch: Footer: logo larger + email box wider to prevent line break */
+/* === Footer logo enlargement and email fix === */
+.site-footer .footer-brand-col [data-zappy-zoom-wrapper] {
+  width: 75px !important;
+  height: 75px !important;
+}
+
+.site-footer .footer-brand-col .logo {
+  border-radius: 12px !important;
+}
+
+/* Email box wider - prevent line break */
+.site-footer .footer-contact-col .contact-text a[href^="mailto:"],
+.site-footer .footer-contact-col li:first-child .contact-text a {
+  font-size: 0.92rem !important;
+  white-space: nowrap !important;
+}
+
+.site-footer .footer-contact-col .contact-text {
+  min-width: 180px !important;
+  flex: 1 1 auto !important;
+}
+
+.site-footer .footer-contact-col ul.footer-contact li {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  gap: 10px !important;
+}
+
+.testimonials-social-proof-intro-section {
+  padding: 72px 16px 60px !important;
+}
+
+.testimonials-social-proof-intro-section .tspsi-emblem-wrapper {
+  top: 30px !important;
+  width: 100px !important;
+  height: 100px !important;
+  opacity: 0.2 !important;
+}
+
+.testimonials-social-proof-intro-section .tspsi-headline {
+  font-size: 2.25rem !important;
+  margin: 0 0 16px 0 !important;
+}
+
+.testimonials-social-proof-intro-section .tspsi-subheadline {
+  font-size: 0.95rem !important;
+  margin: 0 0 20px 0 !important;
+}
+
+.testimonials-social-proof-intro-section .tspsi-wheat-divider {
+  margin-bottom: 20px !important;
+}
+
+.testimonials-social-proof-intro-section .tspsi-description {
+  font-size: 0.88rem !important;
+}
+
+.testimonials-social-proof-intro-section .tspsi-accent-rule {
+  width: 60px !important;
+  margin-bottom: 20px !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
