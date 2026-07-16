@@ -1541,6 +1541,43 @@ document.addEventListener('DOMContentLoaded', function() {
 })();
 /* ZAPPY_CUSTOM_JS_END:bde40a15a8e8 */
 
+/* ZAPPY_CUSTOM_JS_START:e289f267cd7a */
+(function () {
+  function __zappyCustomInit() {
+    try {
+// Toggle expanded content for "פרטים נוספים" buttons on services page
+document.addEventListener('click', function(e) {
+  const link = e.target.closest('.services-overview-section__card-link[data-expand]');
+  if (!link) return;
+  e.preventDefault();
+  
+  const card = link.closest('.services-overview-section__card');
+  if (!card) return;
+  
+  const detail = card.querySelector('.services-overview-section__card-detail');
+  if (!detail) return;
+  
+  const isOpen = detail.classList.contains('open');
+  if (isOpen) {
+    detail.classList.remove('open');
+    link.innerHTML = 'פרטים נוספים ←';
+  } else {
+    detail.classList.add('open');
+    link.innerHTML = 'פחות פרטים ←';
+  }
+});
+    } catch (e) {
+      if (typeof console !== 'undefined' && console.warn) { console.warn('[zappy-custom-js]', e); }
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', __zappyCustomInit);
+  } else {
+    __zappyCustomInit();
+  }
+})();
+/* ZAPPY_CUSTOM_JS_END:e289f267cd7a */
+
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){

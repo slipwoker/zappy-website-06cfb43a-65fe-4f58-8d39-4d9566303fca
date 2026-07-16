@@ -215,7 +215,7 @@
   "about_nav_76": "Contact Us",
   "contact_h1_1": "Let's Talk About Your Family Story",
   "contact_h2_2": "Contact Us",
-  "contact_h2_3": "In Safe Hands — Discreet, Sensitive, and Patient",
+  "contact_h2_3": "In Safe Hands - Discreet, Sensitive and Patient",
   "contact_h3_4": "What Should You Include in Your Message?",
   "contact_h3_5": "Phone",
   "contact_h3_6": "Email",
@@ -228,8 +228,8 @@
   "contact_p_15": "Call us for an initial consultation with no commitment. We'll be happy to answer any question and tailor the service to your family's needs.",
   "contact_p_16": "Send us a detailed inquiry on any matter related to family documentation, passports, or visas. We are committed to a professional and prompt response.",
   "contact_p_17": "Prefer a personal conversation? Schedule a short introductory meeting where we'll understand your needs, explain the process, and build a customized action plan together.",
-  "contact_p_18": "We understand that behind every document stands a family story. Every inquiry is handled with dedication, with full attention to privacy and warm personal care. Our team of experts guides you every step of the way, patiently explaining each stage and ensuring the process is simple, clear, and worry-free. Whether it's complex family documentation or searching for archival records — you and your family are at the center.",
-  "contact_p_19": "FAMILYPASSPORT — Your Service, Our Care.",
+  "contact_p_18": "We understand that behind every document lies a family story. Every inquiry is handled with dedication, ensuring complete privacy and a warm personal touch. Our team of experts guides you every step of the way, patiently explaining each stage, and making sure the process is simple, clear, and worry-free. Whether it involves complex family documentation or searching for archival records — you and your family are at the center of everything we do.",
+  "contact_p_19": "FAMILYPASTPORT - Your service, our concern.",
   "contact_p_20": "Family PastPort",
   "contact_p_21": "Preserving Family Heritage",
   "contact_p_22": "© 2026 FAMILYPASTPORT. All rights reserved.",
@@ -937,5 +937,7 @@
   "what_people_say_about_us_meta_description": "A gift for a 70th birthday that became a cherished memory: Read heartfelt testimonials from families who chose FAMILYPASTPORT to document their travels. Join our circle of satisfied clients!",
   "what_people_say_about_us_seo_twitter_title": "Families Share Their Perfect Documentation Experience — FAMILYPASTPORT",
   "what_people_say_about_us_seo_og_description": "A gift for a 70th birthday that became a cherished memory: Read heartfelt testimonials from families who chose FAMILYPASTPORT to document their travels. Join our circle of satisfied clients!",
-  "what_people_say_about_us_seo_twitter_description": "A gift for a 70th birthday that became a cherished memory: Read heartfelt testimonials from families who chose FAMILYPASTPORT to document their travels. Join our circle of satisfied clients!"
+  "what_people_say_about_us_seo_twitter_description": "A gift for a 70th birthday that became a cherished memory: Read heartfelt testimonials from families who chose FAMILYPASTPORT to document their travels. Join our circle of satisfied clients!",
+  "new_text_112_0": "<input type=\"checkbox\" name=\"privacy_consent\" class=\"privacy-consent-checkbox\" required />\n              <span><span>I have read and I agree to the</span> <a href=\"/terms\" target=\"_blank\">",
+  "new_text_112_1": "</a> <span>and the</span> <a href=\"/privacy\" target=\"_blank\">"
 }
