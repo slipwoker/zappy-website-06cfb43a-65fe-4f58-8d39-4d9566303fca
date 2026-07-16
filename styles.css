@@ -8915,6 +8915,39 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   background: rgba(212, 162, 58, 0.1) !important;
   border-color: var(--secondary-color, var(--secondary, #D4A23A)) !important;
 }
+
+.index-services-section .index-services-section__badge {
+  display: inline-block;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: var(--secondary-color, var(--secondary, #D4A23A));
+  color: var(--background-color, var(--background, var(--bg-light, #FFFFFF)));
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 20px;
+  letter-spacing: 0.03em;
+  z-index: 2;
+}
+
+.index-services-section .index-services-section__card {
+  position: relative;
+}
+
+.index-services-section .index-services-section__card-link {
+  display: inline-block;
+  margin-top: 12px;
+  color: var(--secondary-color, var(--secondary, #D4A23A));
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.index-services-section .index-services-section__card-link:hover {
+  color: #B8860B;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
