@@ -2237,7 +2237,7 @@ English
 ## 2. תיאור השירותים
 
 
-FAMILYPASTPORT מספקת Travel & Documentation Services דרך האתר. השירותים כפופים לתנאים המפורטים במסמך זה ועשויים להשתנות מעת לעת.
+FAMILYPASTPORT מספקת Documentation Services דרך האתר. השירותים כפופים לתנאים המפורטים במסמך זה ועשויים להשתנות מעת לעת.
 
 
 ## 3. תנאי השימוש
