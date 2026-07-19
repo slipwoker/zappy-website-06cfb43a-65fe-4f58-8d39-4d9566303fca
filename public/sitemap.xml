@@ -3,7 +3,7 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://familypastport.com</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com" />
@@ -12,7 +12,7 @@
   </url>
   <url>
     <loc>https://familypastport.com/en</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com" />
@@ -21,7 +21,7 @@
   </url>
   <url>
     <loc>https://familypastport.com/services</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com/services" />
@@ -30,7 +30,7 @@
   </url>
   <url>
     <loc>https://familypastport.com/en/services</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com/services" />
@@ -39,7 +39,7 @@
   </url>
   <url>
     <loc>https://familypastport.com/about</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com/about" />
@@ -48,7 +48,7 @@
   </url>
   <url>
     <loc>https://familypastport.com/en/about</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com/about" />
@@ -57,7 +57,7 @@
   </url>
   <url>
     <loc>https://familypastport.com/qa</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com/qa" />
@@ -66,7 +66,7 @@
   </url>
   <url>
     <loc>https://familypastport.com/en/qa</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com/qa" />
@@ -75,7 +75,7 @@
   </url>
   <url>
     <loc>https://familypastport.com/thank-you</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com/thank-you" />
@@ -84,7 +84,7 @@
   </url>
   <url>
     <loc>https://familypastport.com/en/thank-you</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com/thank-you" />
@@ -93,7 +93,7 @@
   </url>
   <url>
     <loc>https://familypastport.com/what-people-say-about-us</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com/what-people-say-about-us" />
@@ -102,7 +102,7 @@
   </url>
   <url>
     <loc>https://familypastport.com/en/what-people-say-about-us</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com/what-people-say-about-us" />
@@ -111,7 +111,7 @@
   </url>
   <url>
     <loc>https://familypastport.com/contact</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com/contact" />
@@ -120,7 +120,7 @@
   </url>
   <url>
     <loc>https://familypastport.com/en/contact</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com/contact" />
@@ -129,7 +129,7 @@
   </url>
   <url>
     <loc>https://familypastport.com/privacy</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com/privacy" />
@@ -138,7 +138,7 @@
   </url>
   <url>
     <loc>https://familypastport.com/en/privacy</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com/privacy" />
@@ -147,7 +147,7 @@
   </url>
   <url>
     <loc>https://familypastport.com/terms</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com/terms" />
@@ -156,7 +156,7 @@
   </url>
   <url>
     <loc>https://familypastport.com/en/terms</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com/terms" />
@@ -165,7 +165,7 @@
   </url>
   <url>
     <loc>https://familypastport.com/accessibility</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com/accessibility" />
@@ -174,7 +174,7 @@
   </url>
   <url>
     <loc>https://familypastport.com/en/accessibility</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com/accessibility" />
