@@ -9208,6 +9208,32 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
     font-size: 0.95rem;
   }
 }
+
+.services-overview-section__card-link {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  background: linear-gradient(135deg, var(--secondary, var(--secondary-color, var(--secondary, #D4A23A))) 0%, #C9A84C 100%) !important;
+  color: var(--primary-color, var(--primary, #102A47)) !important;
+  font-weight: 700 !important;
+  font-size: 0.95rem !important;
+  text-decoration: none !important;
+  padding: 12px 28px !important;
+  border-radius: 8px !important;
+  border: none !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 4px 14px rgba(212, 162, 58, 0.3) !important;
+}
+
+.services-overview-section__card-link:hover {
+  background: linear-gradient(135deg, var(--accent, var(--accent-color, var(--accent, #F0D77F))) 0%, var(--secondary, var(--secondary-color, var(--secondary, #D4A23A))) 100%) !important;
+  color: var(--primary-color, var(--primary, #102A47)) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 20px rgba(212, 162, 58, 0.45) !important;
+  gap: 10px !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,

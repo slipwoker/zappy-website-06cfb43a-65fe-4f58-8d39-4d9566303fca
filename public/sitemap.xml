@@ -38,24 +38,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://familypastport.com/services" />
   </url>
   <url>
-    <loc>https://familypastport.com/test-column</loc>
-    <lastmod>2026-07-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com/test-column" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://familypastport.com/en/test-column" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://familypastport.com/test-column" />
-  </url>
-  <url>
-    <loc>https://familypastport.com/en/test-column</loc>
-    <lastmod>2026-07-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com/test-column" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://familypastport.com/en/test-column" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://familypastport.com/test-column" />
-  </url>
-  <url>
     <loc>https://familypastport.com/about</loc>
     <lastmod>2026-07-20</lastmod>
     <changefreq>weekly</changefreq>

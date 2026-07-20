@@ -14,9 +14,6 @@ https://familypastport.com
 https://familypastport.com/services
 מחפשים מתנה לגיל 70 בלתי נשכחת? צפו במגוון השירותים שלנו לתיעוד נסיעות, דרכונים והפקת חוויות משפחתיות מותאמות אישית. בחרו את המושלם עבורכם!
 
-### Page
-https://familypastport.com/test-column
-
 ### הכירו את המומחים מאחורי התיועד המשפחתי — FAMILYPASTPORT
 https://familypastport.com/about
 ב-FAMILYPASTPORT אנו מבינים שתיועד משפחתי הוא מתנה יקרת ערך. קראו על הצוות המסור שהופך כל תיעוד נסיעות לחוויה משפחתית מרגשת.
@@ -70,7 +67,7 @@ Information about WCAG compliance and accessibility features.
   - `email` (email, required)
   - `phone` (tel, required)
   - `message` (textarea, required)
-  - `privacy_consent` (checkbox)
+  - `privacy_consent` (checkbox, required)
 
 ---
 
