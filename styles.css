@@ -8558,13 +8558,13 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 }
 
 #home-section-2-section .home-section-2-section__polaroid-accent {
-  width: 190px !important;
-  height: 235px !important;
-  bottom: -55px !important;
-  left: -45px !important;
+  width: 57px;
+  height: 71px;
+  bottom: -16px;
+  left: -14px;
   box-shadow: 0 20px 45px rgba(0,0,0,0.5), 0 0 0 2px rgba(240, 215, 127, 0.18) !important;
   transform: rotate(7deg) !important;
-  padding: 11px 11px 42px !important;
+  padding: 3px 3px 13px;
   background: #F9EFD6 !important;
   border-radius: 3px !important;
   z-index: 3 !important;
@@ -8572,7 +8572,7 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 }
 
 #home-section-2-section .home-section-2-section__polaroid-accent:hover {
-  transform: rotate(3deg) scale(1.06) !important;
+  transform: rotate(3deg) scale(1.06);
   box-shadow: 0 25px 55px rgba(0,0,0,0.55), 0 0 0 3px rgba(240, 215, 127, 0.25) !important;
 }
 
@@ -8604,22 +8604,23 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 }
 
 #home-section-2-section .home-section-2-section__polaroid-accent {
-  width: 200px !important;
-  height: 250px !important;
-  bottom: -60px !important;
-  left: -50px !important;
+  width: 57px !important;
+  height: 71px !important;
+  bottom: -16px !important;
+  left: -14px !important;
+  padding: 3px 3px 13px !important;
 }
 }
 
 #home-section-2-section .home-section-2-section__polaroid-accent {
-  width: 280px !important;
-  height: 340px !important;
-  bottom: -40px !important;
-  left: auto !important;
+  width: 57px;
+  height: 71px;
+  bottom: -16px;
+  left: -14px;
   right: -80px !important;
   box-shadow: 0 25px 55px rgba(0,0,0,0.55), 0 0 0 5px rgba(212, 162, 58, 0.28), 0 0 0 1px rgba(240, 215, 127, 0.4) !important;
   transform: rotate(4deg) !important;
-  padding: 10px 10px 38px !important;
+  padding: 3px 3px 13px;
   background: #F7ECD5 !important;
   border-radius: 3px !important;
   z-index: 4 !important;
@@ -8627,7 +8628,7 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 }
 
 #home-section-2-section .home-section-2-section__polaroid-accent:hover {
-  transform: rotate(1deg) scale(1.05) !important;
+  transform: rotate(3deg) scale(1.06);
   z-index: 10 !important;
   box-shadow: 0 30px 65px rgba(0,0,0,0.6), 0 0 0 6px rgba(212, 162, 58, 0.35), 0 0 0 2px rgba(240, 215, 127, 0.5) !important;
 }
@@ -9233,6 +9234,16 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   transform: translateY(-2px) !important;
   box-shadow: 0 6px 20px rgba(212, 162, 58, 0.45) !important;
   gap: 10px !important;
+}
+
+@media (max-width: 768px) {
+#home-section-2-section .home-section-2-section__polaroid-accent {
+  width: 24px !important;
+  height: 30px !important;
+  bottom: -6px !important;
+  left: -3px !important;
+  padding: 2px 2px 6px !important;
+}
 }
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
