@@ -9288,6 +9288,64 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 .faq-contact-prompt-section .faq-contact-prompt-emblem {
   margin-bottom: 16px !important;
 }
+
+.qa-faq-list-section {
+  background-color: var(--surface-color, var(--surface, #F9FAFB)) !important;
+  background-image: none !important;
+  color: var(--text-color, var(--text, var(--text-dark, #4A4A4A))) !important;
+}
+
+.qa-faq-list-section .qa-faq-list-section__title {
+  color: var(--primary-color, var(--primary, #102A47)) !important;
+}
+
+.qa-faq-list-section .qa-faq-list-section__subtitle {
+  color: var(--text-secondary-color, var(--text-secondary, var(--text-muted, #707070))) !important;
+}
+
+.qa-faq-list-section .qa-faq-list-section__faq-item {
+  background: var(--background-color, var(--background, var(--bg-light, #FFFFFF))) !important;
+  border: 1px solid rgba(212, 162, 58, 0.3) !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06) !important;
+}
+
+.qa-faq-list-section .qa-faq-list-section__faq-question {
+  color: var(--primary-color, var(--primary, #102A47)) !important;
+}
+
+.qa-faq-list-section .qa-faq-list-section__faq-question:hover {
+  color: var(--secondary-color, var(--secondary, #D4A23A)) !important;
+}
+
+.qa-faq-list-section .qa-faq-list-section__faq-icon {
+  background: rgba(212, 162, 58, 0.12) !important;
+  color: var(--secondary-color, var(--secondary, #D4A23A)) !important;
+}
+
+.qa-faq-list-section .qa-faq-list-section__faq-item[open] .qa-faq-list-section__faq-icon {
+  background: rgba(212, 162, 58, 0.25) !important;
+}
+
+.qa-faq-list-section .qa-faq-list-section__faq-answer p {
+  color: var(--text-color, var(--text, var(--text-dark, #4A4A4A))) !important;
+}
+
+.qa-faq-list-section .qa-faq-list-section__intro {
+  background: rgba(212, 162, 58, 0.06) !important;
+  border: 1px solid rgba(212, 162, 58, 0.25) !important;
+}
+
+.qa-faq-list-section .qa-faq-list-section__intro p {
+  color: var(--text-color, var(--text, var(--text-dark, #4A4A4A))) !important;
+}
+
+.qa-faq-list-section .qa-faq-list-section__bg-pattern {
+  background-image: radial-gradient(rgba(212, 162, 58, 0.08) 1px, transparent 1px) !important;
+}
+
+.qa-faq-list-section .qa-faq-list-section__laurel {
+  opacity: 0.25 !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
