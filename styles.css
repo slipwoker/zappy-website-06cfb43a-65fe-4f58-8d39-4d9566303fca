@@ -9766,6 +9766,10 @@ body {
 .fg-gallery-section .fp-card-description {
   font-size: 0.85rem !important;
 }
+/* Batch: גופן מכונת כתיבה לשם החברה בכל העמודים */
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+.nav-brand-name { font-family: 'Special Elite', 'Courier New', monospace !important; letter-spacing: 2px !important; }
+.footer-brand-typewriter { font-family: 'Special Elite', 'Courier New', monospace !important; }
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
