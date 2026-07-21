@@ -9668,6 +9668,11 @@ body {
 .fg-gallery-section .fg-gallery-header {
   margin-bottom: 24px !important;
 }
+
+#fg-gallery-section.fg-gallery-section {
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
