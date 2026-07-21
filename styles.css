@@ -9659,6 +9659,15 @@ body {
     font-size: 1.1rem;
   }
 }
+
+.fg-gallery-section {
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+}
+
+.fg-gallery-section .fg-gallery-header {
+  margin-bottom: 24px !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
