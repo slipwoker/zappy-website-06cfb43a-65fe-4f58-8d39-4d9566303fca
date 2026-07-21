@@ -3309,7 +3309,7 @@ function fixContrast(){
 /* END ZAPPY_CONTACT_FORM_PREVENT_DEFAULT */
 
 
-/* ZAPPY_PUBLISHED_GRID_CENTERING */
+/* ZAPPY_PUBLISHED_GRID_CENTERING_V2 */
 (function(){
   try {
     if (window.__zappyGridCenteringInit) return;
@@ -3373,6 +3373,21 @@ function fixContrast(){
           var colWidth = parseFloat(colWidths[0]) || 0;
           var gap = parseFloat(cs.columnGap);
           if (isNaN(gap)) gap = parseFloat(cs.gap) || 0;
+
+          // Skip non-uniform column widths (mirrors preview autoCenterAllGrids).
+          // Centering assumes equal columns; mixed tracks produce wrong offsets.
+          var parsedWidths = colWidths.map(function(w) { return parseFloat(w) || 0; });
+          if (Math.max.apply(null, parsedWidths) > Math.min.apply(null, parsedWidths) * 1.5) continue;
+
+          // Skip multi-span items (e.g. grid-column: 1 / -1 full-bleed cards, or
+          // bento tiles with span 2+). totalItems % colCount cannot account for
+          // spanned tracks, so a lone full-span card in a 4-col auto-fit grid was
+          // mis-classified as a 1-of-4 orphan and shifted by translateX(~459px).
+          var singleColThreshold = colWidth * 1.5 + gap;
+          var anyMultiSpan = items.some(function(it) {
+            return it.getBoundingClientRect().width > singleColThreshold;
+          });
+          if (anyMultiSpan) continue;
 
           var missingCols = colCount - itemsInLastRow;
           var offset = missingCols * (colWidth + gap) / 2;
@@ -4966,6 +4981,7 @@ function fixContrast(){
         subtotal: 'Subtotal',
         vatIncluded: 'Including VAT',
         shipping: 'Shipping',
+        pickup: 'Pickup',
         discount: 'Discount',
         totalToPay: 'Total to Pay',
         days: 'days',
@@ -4977,6 +4993,7 @@ function fixContrast(){
         subtotal: 'סכום ביניים',
         vatIncluded: 'כולל מע"מ',
         shipping: 'משלוח',
+        pickup: 'איסוף',
         discount: 'הנחה',
         totalToPay: 'סה"כ לתשלום',
         days: 'ימים',
@@ -5099,6 +5116,30 @@ function fixContrast(){
       return [street, city].filter(Boolean).join(', ');
     }
 
+    function isPickupShippingSelected() {
+      // Prefer the live checkout flag set by updateOrderTotals / zappySelectShipping.
+      if (typeof window.__zappySelectedShippingIsPickup === 'boolean') {
+        return window.__zappySelectedShippingIsPickup;
+      }
+      var checked = document.querySelector('input[name="shipping"]:checked');
+      var option = checked
+        ? checked.closest('.shipping-option')
+        : document.querySelector('.shipping-option.selected');
+      if (!option) return false;
+      var attr = option.getAttribute('data-is-pickup');
+      if (attr === 'true') return true;
+      if (attr === 'false') return false;
+      if (option.querySelector('.shipping-address')) return true;
+      var methodId = (checked && checked.value) || option.getAttribute('data-method-id');
+      var cached = window.__zappyShippingMethodsCache;
+      if (methodId && Array.isArray(cached)) {
+        for (var i = 0; i < cached.length; i++) {
+          if (String(cached[i].id) === String(methodId)) return !!cached[i].is_pickup;
+        }
+      }
+      return false;
+    }
+
     function patchCheckoutStaticText() {
       ensureCheckoutTotalsStructure();
       var agree = document.querySelector('[data-i18n="ecom_agreeToTerms"]') || document.querySelector('.terms-checkbox-label > span > span:first-child');
@@ -5107,7 +5148,9 @@ function fixContrast(){
       if (terms && terms.textContent !== getText('termsAndConditions')) terms.textContent = getText('termsAndConditions');
       setLabelForValue('#subtotal', 'subtotal');
       setLabelForValue('#vat-amount', 'vatIncluded');
-      setLabelForValue('#shipping-cost', 'shipping');
+      // Must NOT force "Shipping:" over a selected pickup method — the MutationObserver
+      // re-runs this after updateOrderTotals sets "Pickup:" and was flipping it back.
+      setLabelForValue('#shipping-cost', isPickupShippingSelected() ? 'pickup' : 'shipping');
       setLabelForValue('#checkout-discount-amount', 'discount');
       setLabelForValue('#discount', 'discount');
       setLabelForValue('#order-total', 'totalToPay');
@@ -5130,6 +5173,7 @@ function fixContrast(){
         var res = await fetch(apiBase + '/api/ecommerce/storefront/shipping?websiteId=' + encodeURIComponent(websiteId) + '&lang=' + encodeURIComponent(lang));
         var data = await res.json();
         var methods = data && data.data ? data.data : [];
+        window.__zappyShippingMethodsCache = methods;
         methods.forEach(function(method) {
           var block = container.querySelector('.shipping-method-block[data-method-id="' + method.id + '"]');
           if (!block) return;

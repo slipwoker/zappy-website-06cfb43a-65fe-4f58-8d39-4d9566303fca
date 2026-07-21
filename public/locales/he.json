@@ -540,7 +540,7 @@
   "services_link_56": "פרטים נוספים ←",
   "services_link_57": "פרטים נוספים ←",
   "services_link_58": "פרטים נוספים ←",
-  "services_link_59": "הצטרפו לרשימת המתנה ←",
+  "services_link_59": "לפרטים והסבר",
   "services_link_60": "התחילו לתעד את הסיפור שלכם",
   "services_link_61": "דברו איתנו עוד היום",
   "services_link_62": "בית",
@@ -956,6 +956,7 @@
   "what_people_say_about_us_seo_twitter_title": "משפחות מספרות על חוויית התיועד המושלמת — FAMILYPASTPORT",
   "what_people_say_about_us_seo_og_description": "מתנה לגיל 70 שהפכה לזיכרון מתוק: קראו המלצות נרגשות של משפחות שבחרו ב-FAMILYPASTPORT לתיעוד הנסיעות שלהן. הצטרפו גם אתם למעגל המרוצים!",
   "what_people_say_about_us_seo_twitter_description": "מתנה לגיל 70 שהפכה לזיכרון מתוק: קראו המלצות נרגשות של משפחות שבחרו ב-FAMILYPASTPORT לתיעוד הנסיעות שלהן. הצטרפו גם אתם למעגל המרוצים!",
+  "new_text_131_0": "<span class=\"index-services-section__card-price\">10 ₪ לתמונה</span>\n                <a href=\"/contact\" class=\"index-services-section__card-link\" style>",
   "new_text_112_0": "<input type=\"checkbox\" name=\"privacy_consent\" class=\"privacy-consent-checkbox\" required />\n              <span><span>קראתי ואני מסכים/ה ל</span><a href=\"/terms\" target=\"_blank\">",
   "new_text_112_1": "</a> <span>ול</span><a href=\"/privacy\" target=\"_blank\">"
 }

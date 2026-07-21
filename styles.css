@@ -9346,6 +9346,10 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 .qa-faq-list-section .qa-faq-list-section__laurel {
   opacity: 0.25 !important;
 }
+
+body {
+  background-color: #0D1520 !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,

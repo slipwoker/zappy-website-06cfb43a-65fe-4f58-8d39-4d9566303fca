@@ -542,7 +542,7 @@
       "services_link_56": "פרטים נוספים ←",
       "services_link_57": "פרטים נוספים ←",
       "services_link_58": "פרטים נוספים ←",
-      "services_link_59": "הצטרפו לרשימת המתנה ←",
+      "services_link_59": "לפרטים והסבר",
       "services_link_60": "התחילו לתעד את הסיפור שלכם",
       "services_link_61": "דברו איתנו עוד היום",
       "services_link_62": "בית",
@@ -958,6 +958,7 @@
       "what_people_say_about_us_seo_twitter_title": "משפחות מספרות על חוויית התיועד המושלמת — FAMILYPASTPORT",
       "what_people_say_about_us_seo_og_description": "מתנה לגיל 70 שהפכה לזיכרון מתוק: קראו המלצות נרגשות של משפחות שבחרו ב-FAMILYPASTPORT לתיעוד הנסיעות שלהן. הצטרפו גם אתם למעגל המרוצים!",
       "what_people_say_about_us_seo_twitter_description": "מתנה לגיל 70 שהפכה לזיכרון מתוק: קראו המלצות נרגשות של משפחות שבחרו ב-FAMILYPASTPORT לתיעוד הנסיעות שלהן. הצטרפו גם אתם למעגל המרוצים!",
+      "new_text_131_0": "<span class=\"index-services-section__card-price\">10 ₪ לתמונה</span>\n                <a href=\"/contact\" class=\"index-services-section__card-link\" style>",
       "new_text_112_0": "<input type=\"checkbox\" name=\"privacy_consent\" class=\"privacy-consent-checkbox\" required />\n              <span><span>קראתי ואני מסכים/ה ל</span><a href=\"/terms\" target=\"_blank\">",
       "new_text_112_1": "</a> <span>ול</span><a href=\"/privacy\" target=\"_blank\">"
     }
@@ -1505,7 +1506,7 @@
       "services_link_56": "More Details ←",
       "services_link_57": "More Details ←",
       "services_link_58": "More Details ←",
-      "services_link_59": "Join the Waiting List ←",
+      "services_link_59": "For details and explanation",
       "services_link_60": "Start Documenting Your Story",
       "services_link_61": "Talk to Us Today",
       "services_link_62": "Home",
@@ -1921,6 +1922,7 @@
       "what_people_say_about_us_seo_twitter_title": "Families Share Their Perfect Documentation Experience — FAMILYPASTPORT",
       "what_people_say_about_us_seo_og_description": "A gift for a 70th birthday that became a cherished memory: Read heartfelt testimonials from families who chose FAMILYPASTPORT to document their travels. Join our circle of satisfied clients!",
       "what_people_say_about_us_seo_twitter_description": "A gift for a 70th birthday that became a cherished memory: Read heartfelt testimonials from families who chose FAMILYPASTPORT to document their travels. Join our circle of satisfied clients!",
+      "new_text_131_0": "<span class=\"index-services-section__card-price\">10 ₪ per photo</span>\n                <a href=\"/contact\" class=\"index-services-section__card-link\" style>",
       "new_text_112_0": "<input type=\"checkbox\" name=\"privacy_consent\" class=\"privacy-consent-checkbox\" required />\n              <span><span>I have read and I agree to the</span> <a href=\"/terms\" target=\"_blank\">",
       "new_text_112_1": "</a> <span>and the</span> <a href=\"/privacy\" target=\"_blank\">"
     }
