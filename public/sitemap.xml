@@ -74,6 +74,24 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://familypastport.com/about" />
   </url>
   <url>
+    <loc>https://familypastport.com/personal-heritage-film</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com/personal-heritage-film" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://familypastport.com/en/personal-heritage-film" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://familypastport.com/personal-heritage-film" />
+  </url>
+  <url>
+    <loc>https://familypastport.com/en/personal-heritage-film</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com/personal-heritage-film" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://familypastport.com/en/personal-heritage-film" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://familypastport.com/personal-heritage-film" />
+  </url>
+  <url>
     <loc>https://familypastport.com/qa</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -128,6 +146,24 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://familypastport.com/what-people-say-about-us" />
   </url>
   <url>
+    <loc>https://familypastport.com/intergenerational-gathering</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com/intergenerational-gathering" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://familypastport.com/en/intergenerational-gathering" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://familypastport.com/intergenerational-gathering" />
+  </url>
+  <url>
+    <loc>https://familypastport.com/en/intergenerational-gathering</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com/intergenerational-gathering" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://familypastport.com/en/intergenerational-gathering" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://familypastport.com/intergenerational-gathering" />
+  </url>
+  <url>
     <loc>https://familypastport.com/contact</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>monthly</changefreq>
@@ -146,40 +182,22 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://familypastport.com/contact" />
   </url>
   <url>
-    <loc>https://familypastport.com/personal-heritage-film</loc>
+    <loc>https://familypastport.com/family-history-research</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com/personal-heritage-film" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://familypastport.com/en/personal-heritage-film" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://familypastport.com/personal-heritage-film" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com/family-history-research" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://familypastport.com/en/family-history-research" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://familypastport.com/family-history-research" />
   </url>
   <url>
-    <loc>https://familypastport.com/en/personal-heritage-film</loc>
+    <loc>https://familypastport.com/en/family-history-research</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com/personal-heritage-film" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://familypastport.com/en/personal-heritage-film" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://familypastport.com/personal-heritage-film" />
-  </url>
-  <url>
-    <loc>https://familypastport.com/intergenerational-gathering</loc>
-    <lastmod>2026-07-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com/intergenerational-gathering" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://familypastport.com/en/intergenerational-gathering" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://familypastport.com/intergenerational-gathering" />
-  </url>
-  <url>
-    <loc>https://familypastport.com/en/intergenerational-gathering</loc>
-    <lastmod>2026-07-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com/intergenerational-gathering" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://familypastport.com/en/intergenerational-gathering" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://familypastport.com/intergenerational-gathering" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com/family-history-research" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://familypastport.com/en/family-history-research" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://familypastport.com/family-history-research" />
   </url>
   <url>
     <loc>https://familypastport.com/privacy</loc>
