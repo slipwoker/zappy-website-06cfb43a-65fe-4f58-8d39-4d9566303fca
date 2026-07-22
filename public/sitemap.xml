@@ -218,6 +218,24 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://familypastport.com/document-retrieval" />
   </url>
   <url>
+    <loc>https://familypastport.com/photo-restoration</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com/photo-restoration" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://familypastport.com/en/photo-restoration" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://familypastport.com/photo-restoration" />
+  </url>
+  <url>
+    <loc>https://familypastport.com/en/photo-restoration</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com/photo-restoration" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://familypastport.com/en/photo-restoration" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://familypastport.com/photo-restoration" />
+  </url>
+  <url>
     <loc>https://familypastport.com/privacy</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>monthly</changefreq>
