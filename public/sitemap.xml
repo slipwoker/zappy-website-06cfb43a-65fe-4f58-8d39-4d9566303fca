@@ -38,6 +38,24 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://familypastport.com/services" />
   </url>
   <url>
+    <loc>https://familypastport.com/time-capsule</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com/time-capsule" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://familypastport.com/en/time-capsule" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://familypastport.com/time-capsule" />
+  </url>
+  <url>
+    <loc>https://familypastport.com/en/time-capsule</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com/time-capsule" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://familypastport.com/en/time-capsule" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://familypastport.com/time-capsule" />
+  </url>
+  <url>
     <loc>https://familypastport.com/about</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -128,22 +146,22 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://familypastport.com/contact" />
   </url>
   <url>
-    <loc>https://familypastport.com/time-capsule</loc>
+    <loc>https://familypastport.com/personal-heritage-film</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com/time-capsule" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://familypastport.com/en/time-capsule" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://familypastport.com/time-capsule" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com/personal-heritage-film" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://familypastport.com/en/personal-heritage-film" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://familypastport.com/personal-heritage-film" />
   </url>
   <url>
-    <loc>https://familypastport.com/en/time-capsule</loc>
+    <loc>https://familypastport.com/en/personal-heritage-film</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com/time-capsule" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://familypastport.com/en/time-capsule" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://familypastport.com/time-capsule" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com/personal-heritage-film" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://familypastport.com/en/personal-heritage-film" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://familypastport.com/personal-heritage-film" />
   </url>
   <url>
     <loc>https://familypastport.com/privacy</loc>
