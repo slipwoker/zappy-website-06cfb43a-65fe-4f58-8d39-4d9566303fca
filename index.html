@@ -2977,7 +2977,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     </div>
 </section>
 
-<section class="home-section-2-section" data-layout-spec="Home-section-2" data-zappy-section="true" id="home-section-2-section">
+<section class="home-section-2-section" data-layout-spec="Home-section-2" data-zappy-section="true" id="home-section-2-section" style="direction: rtl;">
   <!-- Decorative Background Pattern -->
   <div class="home-section-2-section__bg-pattern" aria-hidden="true"></div>
   
@@ -3004,7 +3004,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
   <div class="home-section-2-section__container">
     
     <!-- Main Content Grid: Asymmetrical Split -->
-    <div class="home-section-2-section__grid" data-original-item-width="480" data-original-gap="80px" data-original-justify-content="normal" style="display: grid; --zappy-item-width: 480px; --zappy-justify-content: normal; gap: 80px; --zappy-grid-cols: repeat(2, minmax(0, 1fr)); grid-template-columns: repeat(2, minmax(0, 1fr));" data-zappy-explicit-columns="true">
+    <div class="home-section-2-section__grid zappy-preserve-css-grid" data-original-item-width="291" data-original-gap="80px" data-original-justify-content="normal" style="display: grid; --zappy-item-width: 480px; --zappy-justify-content: normal; gap: 80px; --zappy-grid-cols: repeat(2, minmax(0, 1fr)); grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: stretch !important;" data-zappy-explicit-columns="true" data-zappy-grid-align="center">
       
       <!-- Left/Top Column: Image & Collage -->
       <div class="home-section-2-section__media zappy-grid-item-no-stretch" style="background-color: rgba(0, 0, 0, 0) !important; grid-area: auto !important;" data-grid-item-index="0">
@@ -3034,22 +3034,9 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
         
         <p class="home-section-2-section__text" data-i18n="home_p_24">סיפורי המשפחה הם האוצר היקר ביותר שאנו משאירים אחרינו. הרגעים הקטנים, הזיכרונות, החוויות שעיצבו את חיי יקירינו — כל אלה עלולים להיעלם עם הזמן אם לא נתעד אותם כראוי. ב-Family PastPort אנו מאמינים שלכל משפחה מגיע שהסיפור שלה יסופר ויישמר.</p>
         
-        <p class="home-section-2-section__text" data-i18n="home_p_25">הטכנולוגיה המודרנית מאפשרת לנו לתעד הכל, אך דווקא הסיפורים האישיים והאותנטיים ביותר נותרים לעתים קרובות מאחור. Family PastPort נולדה מתוך ההבנה שזיכרונות אינם רק תמונות באלבום — הם קולות, ניחוחות, סיפורים שעוברים מדור לדור. אנו יוצרים תיעוד חי ונושם של מורשתכם המשפחתית.</p>
+        <p class="home-section-2-section__text" data-i18n="home_p_25" style="">הטכנולוגיה המודרנית מאפשרת לנו לתעד הכל, אך דווקא הסיפורים האישיים והאותנטיים ביותר נותרים לעתים קרובות מאחור. Family PastPort נולדה מתוך ההבנה שזיכרונות אינם רק תמונות באלבום — הם קולות, ניחוחות, סיפורים שעוברים מדור לדור. אנו יוצרים תיעוד חי ונושם של מורשתכם המשפחתית.</p>
         
-        <ul class="home-section-2-section__features">
-          <li class="home-section-2-section__feature-item" data-i18n="home_li_71">
-            <span class="home-section-2-section__feature-icon" aria-hidden="true">✦</span>
-            <span class="home-section-2-section__feature-text">ראיה אנושית רגישה</span>
-          </li>
-          <li class="home-section-2-section__feature-item" data-i18n="home_li_72">
-            <span class="home-section-2-section__feature-icon" aria-hidden="true">✦</span>
-            <span class="home-section-2-section__feature-text">מחקר ארכיוני מקצועי</span>
-          </li>
-          <li class="home-section-2-section__feature-item" data-i18n="home_li_73">
-            <span class="home-section-2-section__feature-icon" aria-hidden="true">✦</span>
-            <span class="home-section-2-section__feature-text">גשר חי בין הדורות</span>
-          </li>
-        </ul>
+        <ul class="home-section-2-section__features" style=""></ul>
         
         <p class="home-section-2-section__text" data-i18n="home_p_26">באמצעות שילוב ייחודי של רגישות אנושית, מחקר מעמיק וטכנולוגיה מתקדמת, אנו בונים גשר חי בין העבר, ההווה והעתיד של משפחתכם. כל סיפור מתועד בכבוד, באהבה ובמקצועיות — כדי שהדורות הבאים יוכלו להכיר באמת את אלה שבאו לפניהם.</p>
       </div>
@@ -3210,6 +3197,8 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
   </a>
   
   <div data-integration="accessibility:toolbar"></div>
+
+
 
 
 
