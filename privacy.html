@@ -686,7 +686,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
         .nav-menu li > .sub-menu.mobile-expanded, nav li > .sub-menu.mobile-expanded, .navbar li > .sub-menu.mobile-expanded, #navMenu li > .sub-menu.mobile-expanded { opacity: 1 !important; visibility: visible !important; pointer-events: auto !important; }
         .nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu) { display: flex !important; flex-wrap: wrap !important; align-items: center !important; position: relative !important; min-height: 44px !important; }
         .nav-menu li:has(.sub-menu) > a, nav li:has(.sub-menu) > a, .navbar li:has(.sub-menu) > a, #navMenu li:has(.sub-menu) > a { flex: 1 !important; min-width: 0 !important; }
-        .nav-menu li:has(.sub-menu) > .menu-group-title, nav li:has(.sub-menu) > .menu-group-title, .navbar li:has(.sub-menu) > .menu-group-title, #navMenu li:has(.sub-menu) > .menu-group-title { flex: 1 !important; min-width: 0 !important; padding: 0 !important; line-height: inherit !important; }
+        .nav-menu li:has(.sub-menu) > .menu-group-title, nav li:has(.sub-menu) > .menu-group-title, .navbar li:has(.sub-menu) > .menu-group-title, #navMenu li:has(.sub-menu) > .menu-group-title { flex: 1 !important; min-width: 0 !important; display: flex !important; align-items: center !important; padding: 12px 16px !important; min-height: 44px !important; line-height: 1.4 !important; font-weight: 600 !important; box-sizing: border-box !important; }
         .nav-menu li:has(.sub-menu) > .sub-menu, nav li:has(.sub-menu) > .sub-menu, .navbar li:has(.sub-menu) > .sub-menu, #navMenu li:has(.sub-menu) > .sub-menu { flex-basis: 100% !important; width: 100% !important; }
         .nav-menu li:has(.sub-menu) > a [class*="chevron"], .nav-menu li:has(.sub-menu) > a [class*="arrow"], .nav-menu li:has(.sub-menu) > a .fa-chevron-down, .nav-menu li:has(.sub-menu) > a .fa-angle-down, nav li:has(.sub-menu) > a [class*="chevron"], nav li:has(.sub-menu) > a [class*="arrow"], #navMenu li:has(.sub-menu) > a [class*="chevron"], #navMenu li:has(.sub-menu) > a [class*="arrow"] { display: none !important; visibility: hidden !important; }
         .mobile-submenu-toggle { display: flex !important; align-items: center !important; justify-content: center !important; width: 44px !important; height: auto !important; background: transparent !important; border: none !important; cursor: pointer !important; color: var(--text-light) !important; position: static !important; flex-shrink: 0 !important; align-self: stretch !important; z-index: 2 !important; padding: 0 !important; margin: 0 !important; }
@@ -782,7 +782,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
         <span class="nav-brand-slogan" data-i18n="qa_p_23">שימור מורשת משפחתית</span>
       </div>
       <a href="/" class="logo-link"><img class="logo" src="/assets/site-----image-1.webp" alt="FAMILYPASTPORT" data-i18n-alt="home_alt_82" decoding="async" width="35" height="35"></a>
-    </div><ul class="nav-menu" id="navMenu"><li><a href="/services" data-i18n="home_nav_76">שירותים</a><ul class="sub-menu"></ul></li><li><a href="/about" data-i18n="home_nav_77">אודות</a></li><li><a href="/qa" data-i18n="qa_nav_70">שאלות ותשובות</a></li><li><a href="/what-people-say-about-us" data-i18n="home_nav_79">מה אומרים עלינו</a></li><li class="nav-cta-item-mobile"><a href="/contact" data-i18n="qa_h4_7">צור קשר</a></li></ul></div>
+    </div><ul class="nav-menu" id="navMenu"><li><a href="/services" data-i18n="home_nav_76">שירותים</a><ul class="sub-menu"></ul></li><li><a href="/about" data-i18n="home_nav_77">אודות</a></li><li><a href="/qa" data-i18n="qa_nav_70">שאלות ותשובות</a></li><li><a href="/what-people-say-about-us" data-i18n="home_nav_79">מה אומרים עלינו</a></li><li><a href="/time-capsule" class="">קפסולת הזמן</a></li><li class="nav-cta-item-mobile"><a href="/contact" data-i18n="qa_h4_7">צור קשר</a></li></ul></div>
     
     
     
@@ -810,7 +810,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
             <strong>עדכון אחרון:</strong> 3.7.2026
         </div>
 
-        <p data-i18n="privacy_p_14">
+        <p style="" data-i18n="privacy_p_14">
             FAMILYPASTPORT ("שם העסק", "אנו", "שלנו") מחויבת להגן על פרטיותכם. מדיניות פרטיות זו מסבירה כיצד אנו אוספים, 
             משתמשים ומגינים על המידע שלכם בעת השימוש באתר https://familypastport.com ("השירות").
         </p>
@@ -871,7 +871,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
         <div class="contact-info">
             <h2 data-i18n="privacy_h2_9">8. יצירת קשר</h2>
             <p data-i18n="privacy_p_22">לשאלות או בקשות בנוגע למדיניות פרטיות זו, ניתן לפנות אלינו:</p>
-            <ul><li data-i18n="privacy_li_68"><strong>שם העסק:</strong> FAMILYPASTPORT</li><li><strong>אימייל:</strong> <a href="mailto:info@familypastport.co.il" data-i18n="privacy_link_36">info@familypastport.co.il</a></li><li><strong>טלפון:</strong> <a href="tel:+972545552211">+972545552211</a></li><li data-i18n="privacy_li_69"><strong>כתובת:</strong> נןף הרים 402, הר אדר, 9083600, ישראל</li></ul>
+            <ul style=""><li data-i18n="privacy_li_68"><strong>שם העסק:</strong> FAMILYPASTPORT</li><li><strong>אימייל:</strong> <a href="mailto:info@familypastport.co.il" data-i18n="privacy_link_36">info@familypastport.co.il</a></li><li><strong>טלפון:</strong> <a href="tel:+972545552211">+972545552211</a></li><li data-i18n="privacy_li_69"><strong>כתובת:</strong> נןף הרים 402, הר אדר, 9083600, ישראל</li></ul>
             <p data-i18n="privacy_p_23"><strong>רשם מאגרי המידע:</strong> לתלונות ניתן לפנות לרשם מאגרי המידע במשרד המשפטים</p>
         </div>
 
@@ -887,7 +887,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
       <div class="footer-col footer-brand-col">
         <input type="checkbox" id="zappy-lightbox-toggle-img-1783269479821-z1doamauc" class="zappy-lightbox-toggle" data-zappy-image-lightbox="true"><label class="zappy-lightbox-trigger" for="zappy-lightbox-toggle-img-1783269479821-z1doamauc" data-zappy-image-lightbox="true"><div data-zappy-zoom-wrapper="true" data-element-id="img-1783269479821-z1doamauc" data-element-type="image" data-zappy-zoom-wrapper-width="50px" data-zappy-zoom-wrapper-height="50px" data-zappy-zoom-wrapper-width-mode="px" data-zappy-zoom-wrapper-align="right" style="position: relative !important; overflow: hidden !important; width: 50px !important; max-width: 100% !important; margin-left: auto !important; margin-right: 0px !important; height: 50px !important; display: block !important; cursor: pointer;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-click-action="expand"><img src="/assets/site-services-benefits-image-1-1784125563483-r0zk9q.webp?v=1784125566183" alt="FAMILYPASTPORT" class="logo zappy-resizable-hover" data-element-type="image" data-element-id="img-1783269479821-z1doamauc" data-zappy-footer-image="true" style="display: block; border-radius: 8px; object-fit: cover !important; width: 100% !important; height: 100% !important; max-width: none !important; margin: 0px !important; object-position: 50% 33% !important; filter: none !important; position: absolute !important; left: 0% !important; top: 0% !important; max-height: none !important;" data-zappy-object-position="50% 33%" data-zappy-zoom="1" data-zappy-click-action="expand" data-i18n-alt="home_alt_84" decoding="async" width="35" height="35"></div></label>
         <p class="footer-brand-typewriter" style="font-weight: 400; letter-spacing: 0.03em; font-family: &quot;Special Elite&quot;, &quot;Courier New&quot;, monospace !important;" data-i18n="home_p_28">Family PastPort</p>
-        <p class="footer-brand-slogan" data-i18n="home_p_29">שימור מורשת משפחתית</p>
+        <p class="footer-brand-slogan" style="" data-i18n="home_p_29">שימור מורשת משפחתית</p>
       </div>
 
       <!--- Column 2: Quick Links --->
@@ -906,20 +906,20 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
       <!--- Column 3: Contact Info --->
       <div class="footer-col footer-contact-col">
         <h4 data-i18n="home_h4_13">צור קשר</h4>
-        <ul class="footer-contact"><li>
+        <ul class="footer-contact" style=""><li>
             <span class="contact-icon"><i class="fas fa-envelope" data-element-type="icon" data-element-id="icon-1783269479820-axq0eu3oj" data-icon-type="fontawesome" style="cursor: pointer;"></i></span>
-            <span class="contact-text" data-i18n="home_span_42"><a href="mailto:info@familypastport.co.il" data-i18n="home_link_62">info@familypastport.co.il</a></span>
+            <span class="contact-text" data-i18n="home_span_42"><a href="mailto:info@familypastport.co.il" style="" data-i18n="home_link_62">info@familypastport.co.il</a></span>
           </li><li>
             <span class="contact-icon"><i class="fas fa-phone" data-element-type="icon" data-element-id="icon-1783269479820-ue0fyy6cz" data-icon-type="fontawesome" style="cursor: pointer;"></i></span>
-            <span class="contact-text"><a href="tel:+972545552211">972545552211+</a></span>
+            <span class="contact-text"><a href="tel:+972545552211" style="">972545552211+</a></span>
           </li><li><a href="https://www.google.com/maps/search/?api=1&amp;query=%D7%A0%D7%9F%D7%A3%20%D7%94%D7%A8%D7%99%D7%9D%20402%2C%20%D7%94%D7%A8%20%D7%90%D7%93%D7%A8%2C%209083600%2C%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C" target="_blank" rel="noopener noreferrer" data-i18n="home_link_63"><span class="contact-icon"><i class="fas fa-map-marker-alt" style="cursor: pointer;"></i></span>
             <span class="contact-text">נןף הרים 402, הר אדר, 9083600, ישראל</span></a></li></ul>
       </div>
 
       <!--- Column 4: Business Hours --->
       <div class="footer-col footer-hours-col">
-        <h4 data-i18n="home_h4_14">שעות פעילות</h4>
-        <ul class="footer-hours"><li><a href="/" data-i18n="home_link_64"><span class="hours-day">ימים א’–ה’</span> <span class="hours-time">09:00–17:00</span></a></li><li><a href="/" data-i18n="home_link_65"><span class="hours-day">יום ו’</span> <span class="hours-time">09:00–13:00</span></a></li><li><a href="/" data-i18n="home_link_66"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li></ul>
+        <h4 style="" data-i18n="home_h4_14">שעות פעילות</h4>
+        <ul class="footer-hours" style=""><li><a href="/" style="" data-i18n="home_link_64"><span class="hours-day">ימים א’–ה’</span> <span class="hours-time">09:00–17:00</span></a></li><li><a href="/" data-i18n="home_link_65"><span class="hours-day">יום ו’</span> <span class="hours-time">09:00–13:00</span></a></li><li><a href="/" data-i18n="home_link_66"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li></ul>
       </div>
 
       <!--- Column 5: Social Media --->

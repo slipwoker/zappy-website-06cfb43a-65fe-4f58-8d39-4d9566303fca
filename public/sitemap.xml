@@ -128,6 +128,24 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://familypastport.com/contact" />
   </url>
   <url>
+    <loc>https://familypastport.com/time-capsule</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com/time-capsule" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://familypastport.com/en/time-capsule" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://familypastport.com/time-capsule" />
+  </url>
+  <url>
+    <loc>https://familypastport.com/en/time-capsule</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://familypastport.com/time-capsule" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://familypastport.com/en/time-capsule" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://familypastport.com/time-capsule" />
+  </url>
+  <url>
     <loc>https://familypastport.com/privacy</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>monthly</changefreq>
