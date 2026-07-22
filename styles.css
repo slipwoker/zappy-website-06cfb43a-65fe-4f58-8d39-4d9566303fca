@@ -11904,6 +11904,293 @@ body {
     font-size: 1rem;
     padding: 14px 28px;
   }
+}/* AI-generated section */
+/* === Process Section - Dark Blue Background === */
+.fp-process{background-color: #0D1520;padding: 80px 20px 90px;font-family: system-ui, sans-serif;position: relative;overflow: hidden;}html[dir="rtl"] /* AI-generated section */
+/* === Process Section - Dark Blue Background === */
+.fp-process{direction: rtl;}
+
+.fp-process::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(ellipse at 50% 0%, rgba(212, 162, 58, 0.06) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.fp-process__container {
+  max-width: 1100px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* === Header === */
+.fp-process__header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.fp-process__heading {
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: #F5E6C0;
+  margin: 0 0 12px;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+}
+
+.fp-process__subtitle {
+  font-size: 1.25rem;
+  color: rgba(245, 230, 192, 0.75);
+  margin: 0;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+}
+
+/* === Steps Grid === */
+.fp-process__steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 28px;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+/* Connecting line between steps (desktop only) */
+.fp-process__steps::before {
+  content: '';
+  position: absolute;
+  top: 40px;
+  left: 12%;
+  right: 12%;
+  height: 2px;
+  background: linear-gradient(to right, transparent, rgba(212, 162, 58, 0.4), rgba(212, 162, 58, 0.6), rgba(212, 162, 58, 0.4), transparent);
+  z-index: 0;
+}
+
+/* === Individual Step Card === */
+.fp-process__step {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(212, 162, 58, 0.2);
+  border-radius: 16px;
+  padding: 40px 22px 30px;
+  text-align: center;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease, background 0.3s ease;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fp-process__step:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(212, 162, 58, 0.3);
+  border-color: rgba(212, 162, 58, 0.5);
+  background: rgba(255, 255, 255, 0.07);
+}
+
+/* === Step Number === */
+.fp-process__step-number {
+  position: absolute;
+  top: -16px;
+  right: -16px;
+  width: 36px;
+  height: 36px;
+  background: var(--secondary-color, #D4A23A);
+  color: #0D1520;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1rem;
+  z-index: 2;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  border: 2px solid #0D1520;
+}
+
+/* === Step Icon === */
+.fp-process__step-icon-wrapper {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 22px;
+  border-radius: 50%;
+  background: rgba(212, 162, 58, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+  border: 2px solid rgba(212, 162, 58, 0.25);
+}
+
+.fp-process__step:hover .fp-process__step-icon-wrapper {
+  background: rgba(212, 162, 58, 0.18);
+  box-shadow: 0 0 30px rgba(212, 162, 58, 0.15);
+  border-color: rgba(212, 162, 58, 0.5);
+}
+
+.fp-process__step-icon {
+  width: 44px;
+  height: 44px;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+/* === Step Title === */
+.fp-process__step-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #F5E6C0;
+  margin: 0 0 12px;
+  line-height: 1.3;
+}
+
+/* === Step Text === */
+.fp-process__step-text {
+  font-size: 0.95rem;
+  color: rgba(245, 230, 192, 0.7);
+  line-height: 1.65;
+  margin: 0;
+}
+
+/* === CTA Section === */
+.fp-process__cta {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.fp-process__cta-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--secondary-color, #D4A23A);
+  color: #0D1520;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 16px 36px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 6px 20px rgba(212, 162, 58, 0.3);
+  letter-spacing: 0.3px;
+}
+
+.fp-process__cta-button:hover {
+  background: #e0b545;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(212, 162, 58, 0.45);
+}
+
+.fp-process__cta-button:focus-visible {
+  outline: 3px solid #F5E6C0;
+  outline-offset: 3px;
+}
+
+.fp-process__cta-arrow {
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+
+.fp-process__cta-button:hover .fp-process__cta-arrow {
+  transform: translateX(-5px);
+}
+
+/* === Responsive Breakpoints === */
+@media (max-width: 1024px) {
+  .fp-process__steps {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+  
+  .fp-process__steps::before {
+    display: none;
+  }
+  
+  .fp-process__heading {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .fp-process {
+    padding: 60px 16px 70px;
+  }
+  
+  .fp-process__header {
+    margin-bottom: 40px;
+  }
+  
+  .fp-process__heading {
+    font-size: 1.9rem;
+  }
+  
+  .fp-process__subtitle {
+    font-size: 1.05rem;
+  }
+  
+  .fp-process__steps {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .fp-process__step {
+    padding: 32px 20px 26px;
+  }
+  
+  .fp-process__step-icon-wrapper {
+    width: 68px;
+    height: 68px;
+    margin-bottom: 16px;
+  }
+  
+  .fp-process__step-icon {
+    width: 36px;
+    height: 36px;
+  }
+  
+  .fp-process__step-title {
+    font-size: 1.15rem;
+  }
+  
+  .fp-process__step-text {
+    font-size: 0.9rem;
+  }
+  
+  .fp-process__step-number {
+    width: 30px;
+    height: 30px;
+    font-size: 0.85rem;
+    top: -13px;
+    right: -13px;
+  }
+  
+  .fp-process__cta-button {
+    font-size: 1rem;
+    padding: 14px 28px;
+  }
+}
+
+@media (max-width: 380px) {
+  .fp-process__heading {
+    font-size: 1.6rem;
+  }
+  
+  .fp-process__step {
+    padding: 26px 16px 22px;
+  }
 }
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
