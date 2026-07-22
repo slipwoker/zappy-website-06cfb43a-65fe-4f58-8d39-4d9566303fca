@@ -26,9 +26,9 @@ https://familypastport.com/qa
 https://familypastport.com/thank-you
 FAMILYPASTPORT - תודה שפניתם אלינו | FAMILYPASTPORT
 
-### משפחות מספרות על חוויית התיועד המושלמת — FAMILYPASTPORT
+### משפחות מספרות על חוויית התיעוד המושלמת — FAMILYPASTPORT
 https://familypastport.com/what-people-say-about-us
-מתנה לגיל 70 שהפכה לזיכרון מתוק: קראו המלצות נרגשות של משפחות שבחרו ב-FAMILYPASTPORT לתיעוד הנסיעות שלהן. הצטרפו גם אתם למעגל המרוצים!
+מתנה לגיל 70 שהפכה לזיכרון מתוק: קראו המלצות נרגשות של משפחות שבחרו ב-FAMILYPASTPORT לתיעוד המורשת והסיפור המשפחתי שלהן. הצטרפו גם אתם למעגל המרוצים!
 
 ### צרו קשר והתחילו את התיועד המשפחתי שלכם — FAMILYPASTPORT
 https://familypastport.com/contact
@@ -70,7 +70,7 @@ Information about WCAG compliance and accessibility features.
   - `email` (email, required)
   - `phone` (tel, required)
   - `message` (textarea, required)
-  - `privacy_consent` (checkbox)
+  - `privacy_consent` (checkbox, required)
 
 ---
 
