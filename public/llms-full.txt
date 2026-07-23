@@ -1919,15 +1919,6 @@ English
 
 
 
-# חקר תולדות המשפחה
-
-
-This page is ready for your content.
-
-
-
-
-
 
 
 
@@ -4783,15 +4774,6 @@ English
 
 
 
-# איתור מסמכים
-
-
-This page is ready for your content.
-
-
-
-
-
 
 
 
@@ -5014,15 +4996,6 @@ English
 
 
 
-
-
-
-
-
-# שיקום תמונות
-
-
-This page is ready for your content.
 
 
 
