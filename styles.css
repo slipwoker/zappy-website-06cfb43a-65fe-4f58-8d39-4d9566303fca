@@ -12542,6 +12542,10 @@ body {
   z-index: 5;
 }
 }
+
+#how-it-works .how-it-works__step {
+  justify-content: flex-start !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
