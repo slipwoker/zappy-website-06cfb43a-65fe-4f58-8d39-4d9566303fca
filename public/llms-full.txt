@@ -4802,6 +4802,7 @@ This page is ready for your content.
 
 
 
+
 שירות מקצועי
 
 # איתור מסמכים ארכיוניים
@@ -4827,15 +4828,10 @@ This page is ready for your content.
 
 
 
-
-מחיר
-לפי הצעה אישית
-
+מחיר לפי הצעה אישית
 
 
 צור קשר לקבלת הצעת מחיר
-
-
 
 
 
