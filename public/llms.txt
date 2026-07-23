@@ -76,11 +76,15 @@ Information about WCAG compliance and accessibility features.
 - Address: נןף הרים 402, הר אדר, 9083600, ישראל
 
 ### Contact form
-- URL: https://familypastport.com/qa
+- URL: https://familypastport.com/contact
 - Endpoint: https://familypastport.com/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
+  - `name` (text, required)
+  - `email` (email, required)
+  - `phone` (tel, required)
+  - `message` (textarea, required)
   - `privacy_consent` (checkbox, required)
 
 ---
