@@ -12556,6 +12556,10 @@ body {
   max-width: 100% !important;
   width: 100% !important;
 }
+
+#how-it-works {
+  background-color: #162333 !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
