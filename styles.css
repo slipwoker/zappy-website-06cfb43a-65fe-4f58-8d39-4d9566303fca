@@ -12604,6 +12604,51 @@ body {
 .hiw-section .hiw-cta-button:hover {
   background: var(--secondary-color, var(--secondary, #D4A23A)) !important;
 }
+
+#hiw-section {
+  background-color: #F5F0E8 !important;
+  color: #2D2D2D !important;
+}
+
+#hiw-section h2.fp-process__heading {
+  color: #1A1A2E !important;
+}
+
+#hiw-section .fp-process__subtitle {
+  color: var(--text-color, var(--text, var(--text-dark, #4A4A4A))) !important;
+}
+
+#hiw-section .fp-process__step-title {
+  color: #1A1A2E !important;
+}
+
+#hiw-section .fp-process__step-text {
+  color: var(--text-color, var(--text, var(--text-dark, #4A4A4A))) !important;
+}
+
+#hiw-section .fp-process__step-number {
+  background: var(--secondary-color, var(--secondary-color, var(--secondary, #D4A23A))) !important;
+  color: #0D1520 !important;
+  border-color: #F5F0E8 !important;
+}
+
+#hiw-section .fp-process__step-icon-wrapper {
+  background: rgba(212, 162, 58, 0.12) !important;
+  border-color: rgba(212, 162, 58, 0.4) !important;
+}
+
+#hiw-section .fp-process__step-icon i {
+  color: var(--secondary-color, var(--secondary-color, var(--secondary, #D4A23A))) !important;
+}
+
+#hiw-section .fp-process__step-connector svg {
+  stroke: rgba(212, 162, 58, 0.5) !important;
+}
+
+#hiw-section .fp-process__cta-button {
+  background: var(--secondary-color, var(--secondary-color, var(--secondary, #D4A23A))) !important;
+  color: #0D1520 !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
