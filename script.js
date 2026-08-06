@@ -686,6 +686,58 @@ document.addEventListener('click', function(e) {
 })();
 /* ZAPPY_CUSTOM_JS_END:e289f267cd7a */
 
+/* ZAPPY_CUSTOM_JS_START:11f1954638d7 */
+(function () {
+  function __zappyCustomInit() {
+    try {
+(function() {
+  var wrapper = document.querySelector('.fhp-image-wrapper');
+  if (!wrapper) return;
+  
+  var videos = wrapper.querySelectorAll('video');
+  if (videos.length < 2) return;
+  
+  // הסתרת הסרטון השני בהתחלה
+  videos[1].style.display = 'none';
+  videos[1].loop = false;
+  videos[0].loop = false;
+  
+  var currentIdx = 0;
+  
+  function playNext() {
+    // הסתרת הנוכחי
+    videos[currentIdx].style.display = 'none';
+    videos[currentIdx].pause();
+    
+    // מעבר לבא
+    currentIdx = (currentIdx + 1) % videos.length;
+    videos[currentIdx].style.display = 'block';
+    videos[currentIdx].currentTime = 0;
+    videos[currentIdx].play().catch(function(){});
+  }
+  
+  // האזנה לסיום כל סרטון
+  videos.forEach(function(video) {
+    video.addEventListener('ended', function() {
+      playNext();
+    });
+  });
+  
+  // וידוא שהראשון מתנגן
+  videos[0].play().catch(function(){});
+})();
+    } catch (e) {
+      if (typeof console !== 'undefined' && console.warn) { console.warn('[zappy-custom-js]', e); }
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', __zappyCustomInit);
+  } else {
+    __zappyCustomInit();
+  }
+})();
+/* ZAPPY_CUSTOM_JS_END:11f1954638d7 */
+
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
