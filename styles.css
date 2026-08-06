@@ -12560,6 +12560,50 @@ body {
 #how-it-works {
   background-color: #162333 !important;
 }
+
+.hiw-section .hiw-title {
+  color: var(--primary-color, var(--primary, #102A47)) !important;
+}
+
+.hiw-section .hiw-header h2 {
+  color: var(--text-color, var(--text, var(--text-dark, #4A4A4A))) !important;
+}
+
+.hiw-section .hiw-step-title {
+  color: var(--primary-color, var(--primary, #102A47)) !important;
+}
+
+.hiw-section .hiw-step-text {
+  color: var(--text-color, var(--text, var(--text-dark, #4A4A4A))) !important;
+}
+
+.hiw-section .hiw-step-number {
+  color: var(--secondary-color, var(--secondary, #D4A23A)) !important;
+}
+
+.hiw-section .hiw-step-connector svg path {
+  stroke: var(--secondary-color, var(--secondary, #D4A23A)) !important;
+}
+
+.hiw-section .hiw-step-icon {
+  background: rgba(212, 162, 58, 0.08) !important;
+  border: 1px solid rgba(212, 162, 58, 0.25) !important;
+  border-radius: 50% !important;
+  width: 70px !important;
+  height: 70px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.hiw-section .hiw-cta-button {
+  background: var(--primary-color, var(--primary, #102A47)) !important;
+  color: var(--background-color, var(--background, var(--bg-light, #FFFFFF))) !important;
+}
+
+.hiw-section .hiw-cta-button:hover {
+  background: var(--secondary-color, var(--secondary, #D4A23A)) !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
