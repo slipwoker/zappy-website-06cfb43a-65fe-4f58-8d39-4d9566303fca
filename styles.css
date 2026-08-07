@@ -12688,6 +12688,10 @@ body {
 /* zappy-self-heal */
 #hiw-section .fp-process__step-icon-wrapper i { font-size: 32px !important; }
 
+
+#archival-service-section .archival-image-accent {
+  max-width: none !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
