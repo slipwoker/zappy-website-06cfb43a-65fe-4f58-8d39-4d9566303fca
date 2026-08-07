@@ -12649,6 +12649,45 @@ body {
   background: var(--secondary-color, var(--secondary-color, var(--secondary, #D4A23A))) !important;
   color: #0D1520 !important;
 }
+
+#hiw-section .fp-process__step-icon-wrapper {
+  width: 90px;
+  height: 90px;
+  border-radius: 50% !important;
+  background: rgb(16, 42, 71) !important;
+  border: 2px solid rgba(212, 162, 58, 0.5) !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px auto;
+  position: relative;
+  overflow: hidden;
+}
+
+#hiw-section .fp-process__step-icon-wrapper i {
+  font-size: 32px;
+  color: var(--secondary-color, var(--secondary, #D4A23A)) !important;
+}
+
+#hiw-section .fp-process__step-number {
+  position: absolute;
+  bottom: -6px;
+  right: -6px;
+  background: var(--secondary-color, var(--secondary, #D4A23A)) !important;
+  color: #0D1520 !important;
+  font-size: 0.75rem;
+  font-weight: 700;
+  width: 28px;
+  height: 28px;
+  border-radius: 50% !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #0D1520;
+}
+/* zappy-self-heal */
+#hiw-section .fp-process__step-icon-wrapper i { font-size: 32px !important; }
+
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
