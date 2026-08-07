@@ -13119,6 +13119,31 @@ body {
   padding-top: unset !important;
   padding-bottom: unset !important;
 }
+
+.tc-time-capsule .tc-cta {
+  display: inline-block !important;
+  text-decoration: none !important;
+  border-radius: 100px !important;
+  padding: 14px 32px !important;
+  background: linear-gradient(135deg, #C9A84C 0%, #F0C040 100%) !important;
+  color: #0D1520 !important;
+  font-weight: 700 !important;
+  font-size: 1rem !important;
+  font-family: 'Inter', 'Assistant', sans-serif !important;
+  border: none !important;
+  cursor: pointer !important;
+  white-space: nowrap !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+  box-shadow: 0 4px 16px rgba(201, 168, 76, 0.25) !important;
+  position: relative !important;
+  z-index: 5 !important;
+  pointer-events: auto !important;
+}
+
+.tc-time-capsule .tc-cta:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 24px rgba(201, 168, 76, 0.4) !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
